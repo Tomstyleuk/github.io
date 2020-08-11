@@ -47,7 +47,7 @@ header {
     display: flex;
     position: relative;
     z-index: 9999;
-    background: url(images/_MG_0850\ 2.jpg)no-repeat;
+    background: url(../images/_MG_0850\ 2.jpg)no-repeat;
     height: 900px;
 }
 
