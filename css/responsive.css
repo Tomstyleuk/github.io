@@ -172,6 +172,7 @@
 
     #referenz {
         margin: -70px 0 0 60px;
+        text-align: center;
         width: 76%;
     }
 
@@ -512,6 +513,7 @@
 
     #referenz {
         margin: -70px 0 0 80px;
+        text-align: center;
         width: 80%;
     }
 
@@ -690,6 +692,10 @@
 
 /*----------- max-width: 480px -----------*/
 @media screen and (max-width: 480px) {
+    .current {
+        border-bottom: solid red 2px;
+    }
+
     #wrapper {
         background: #ffffff;
         margin-left: auto;
@@ -869,6 +875,7 @@
 
     #referenz {
         margin: -70px 0 0 40px;
+        text-align: center;
         width: 80%;
     }
 
@@ -1029,7 +1036,5 @@
         padding: 20px 0 22px 0;
         margin: 50px 0 0 118px;
     }
-
-    
 
 }
