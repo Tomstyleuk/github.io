@@ -47,6 +47,7 @@ header {
     display: flex;
     position: relative;
     z-index: 9999;
+    background: url(images/_MG_0850\ 2.jpg)no-repeat;
     height: 900px;
 }
 
@@ -206,6 +207,7 @@ nav li, footer li {
 
 #referenz {
     margin: -70px 0 0 40px;
+    text-align: center;
     width: 84%;
 }
 
