@@ -12,8 +12,8 @@
         });
  
         var typed3 = new Typed('#frontend', {
-          strings: ['Frontend Web-Entwickler'],
-          typeSpeed: 50,
+          strings: ['Web Frontend-Entwickler'],
+          typeSpeed: 30,
           backSpeed: 30,
           smartBackspace: true, // this is a default
           contentType: 'html',
