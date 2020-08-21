@@ -13,7 +13,7 @@
  
         var typed3 = new Typed('#frontend', {
           strings: ['Web Frontend-Entwickler'],
-          typeSpeed: 30,
+          typeSpeed: 40,
           backSpeed: 30,
           smartBackspace: true, // this is a default
           contentType: 'html',
