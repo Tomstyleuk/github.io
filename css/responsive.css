@@ -823,7 +823,7 @@
 
 
     /*----------- PROJEKTE -----------*/
-    .projekte_title {
+    #ueberschrift .projekte_title {
         margin: 280px 0 0 0 !important;
     }
     
