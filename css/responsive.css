@@ -823,6 +823,10 @@
 
 
     /*----------- PROJEKTE -----------*/
+    .projekte_title {
+        margin: 280px 0 0 0 !important;
+    }
+    
     #img1, #img2 {
         display: inline-block;
     }
