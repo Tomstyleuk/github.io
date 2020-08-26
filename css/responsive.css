@@ -28,7 +28,7 @@
     
       p {
         color: #464646;
-        font-size: 1.2em;
+        font-size: 2em;
       }
       
       /* verboten Bilder zu speichern */
@@ -65,8 +65,8 @@
     
     #myname {
         color: #fff;
-        font-size: 3.5em;
-        margin: 50px 0 0 80px;
+        font-size: 4.5em;
+        margin: 50px 0 0 230px;
         /* padding: 20px 0; */
     }
     
@@ -78,13 +78,13 @@
     nav {
         position: absolute;
         /* top: 60px; */
-        right: 160px;
+        right: 460px;
         margin: 60px 0 0 0;
     }
     
     nav li a, footer li a {
         color: #fff;
-        font-size: 1.5em;
+        font-size: 2.8em;
     }
     
     nav ul {
@@ -111,6 +111,11 @@
         display: inline-block;
         margin: 0 0 30% 0;
     }
+
+    #vertical_nav img {
+        width: 70px;
+    }
+
     
     
     /*----------- top_intro -----------*/
@@ -124,7 +129,7 @@
     
     #top_intro #frontend {
         color: #fff;
-        font-size: 3.3em;
+        font-size: 6em;
     }
     
     #top_intro #frontend::first-letter {
@@ -133,15 +138,19 @@
     
     #top_intro p {
         color: rgb(252, 252, 252);
-        font-size: 1.5em;
-        width: 50%;
+        font-size: 2.6em;
+        width: 100%;
     }
     
     
     /*----------- ueberschrift -----------*/
     #ueberschrift {
-        font-size: 3em;
-        margin: 50px 0 0 170px;
+        font-size: 5em;
+        margin: 50px 0 0 250px;
+    }
+
+    #projekte_title {
+        margin: 900px 0 0 0;
     }
     
     #ueberschrift::first-letter { /*重複してるもしくは同じcssがあるから統一する*/
@@ -156,19 +165,29 @@
     
     #projekte {
         display: flex;
+        margin: 0 0 140px 0;
         width: 100%;
     }
     
     #works1 {
-        margin: 0 90px 0 130px;
+        margin: 0 90px 0 160px;
         position: relative;
         width: 46%;
         z-index: 1;
     }
-    
+
+    h4, #projekte_name {
+        font-size: 2em;
+    }
+
     #works2 {
-        margin: 40px 0 0 0;
+        margin: 40px 0 0 400px;
         width: 45%;
+    }
+
+    .video {
+        height: auto;
+        width: 600px;
     }
     
     .hover-parent img {
@@ -183,19 +202,19 @@
         background: rgba(0,0,0,0.6);
         color: #fff;
         display: flex;
-        font-size: 1.1em;
+        font-size: 2em;
         position: absolute;
-        top: 46px;
+        top: 92px;
         bottom: 0;
-        left: 63px;
+        left: 96px;
         right: 0;
         padding: 90px 30px 0 30px;
-            padding-bottom: 0px;
+        padding-bottom: 0px;
         opacity: 0;
         /* align-items: center; */
         text-align: center;
-        height: 204px;
-        width: 70%;
+        height: 345px;
+        width: 74%;
     } 
     
     
@@ -208,9 +227,9 @@
     
     
     #referenz {
-        box-shadow: whitesmoke 0 2px 10px 8px;
+        box-shadow: whitesmoke 0 10px 10px 8px;
         padding: 10px;
-        margin: -70px 0 0 40px;
+        margin: -70px 0 0 90px;
         text-align: center;
         width: 84%;
     }
@@ -232,11 +251,11 @@
     
     .prog_tools {
         float: right;
-        font-size: 1.2em;
+        font-size: 2.2em;
         letter-spacing: 1px;
         position: relative;
         top: 100px;
-        right: 280px;
+        right: 440px;    
     }
     
     #skills {
@@ -249,24 +268,25 @@
     }
     
     #skills h2 {
-        font-size: 2.4em;
+        font-size: 3.5em;
         margin: 0;
     }
     
     #Programmiersprache {
-        margin: 0 0 0 170px;
+        margin: 0 0 0 250px;
         width: 40%;
     }
     
     #tools {
-        margin: 0 0 0 140px;
+        margin: 0 0 0 400px;
         width: 40%;
     }
     
     
     /*----------- MY STORY -----------*/
     #about p {
-        margin: 30px 0 0 170px;
+        line-height: 1.7em;
+        margin: 30px 0 0 250px;
         width: 80%;
     }
     
@@ -279,18 +299,18 @@
         background-color: #5c5c59;
         border: solid #5c5c59 1px;
         color: #fff;
-        font-size: 1.2em;
+        font-size: 3.2em;
         font-weight: lighter;
-        padding: 10px 52px;
+        padding: 20px 82px;
     }
     
     #lebenslauf:hover {
         background-color: #5c5c59;
         border: solid #5c5c59 1px;
         color: #EBF018;
-        font-size: 1.2em;
+        font-size: 3.2em;
         font-weight: lighter;
-        padding: 10px 52px;
+        padding: 20px 82px;
     }
     
     .gitlink, .wbslink {
@@ -307,13 +327,13 @@
     }
     
     #email_adresse {
-        font-size: 2.4em;
+        font-size: 4em;
         position: relative;
         /* text-shadow: 1px 1px 2px #5c5c59; */
     }
     
     #kontakt a::after {
-        border-bottom: solid 2px #E2E646;
+        border-bottom: solid 6px #E2E646;
         bottom: 0;
         content: "";
         display: block;
@@ -329,7 +349,7 @@
     }
     
     #email_adresse:hover {
-        font-size: 2.4em;
+        font-size: 4em;
     }
     
     /*----------- FOOTER -----------*/
@@ -345,7 +365,7 @@
     
     footer ul {
         display: flex;
-        margin: 70px 0 0 180px;
+        margin: 70px 0 0 430px;
         /* position: relative;
         left: 500px; */
         width: auto;
@@ -359,7 +379,7 @@
         color: #fff;
         font-size: 3.5em;
         padding: 0 0 40px 0;
-        margin: 50px 0 0 80px;
+        margin: 50px 0 0 230px;
     }
     
     .typed-cursor {
@@ -374,6 +394,8 @@
         transition: 1s;
       }
 }
+/*----------- max-width: 2560px -----------*/
+
 
 
 /*----------- max-width: 1024px -----------*/
@@ -651,7 +673,7 @@
     }
 
     #kontakt a::after {
-        border-bottom: solid 2px #E2E646;
+        border-bottom: solid 4px #E2E646;
         bottom: 0;
         content: "";
         display: block;
@@ -1002,7 +1024,7 @@
     }
 
     #kontakt a::after {
-        border-bottom: solid 2px #E2E646;
+        border-bottom: solid 4px #E2E646;
         bottom: 0;
         content: "";
         display: block;
@@ -1366,7 +1388,7 @@
     }
 
     #kontakt a::after {
-        border-bottom: solid 2px #E2E646;
+        border-bottom: solid 4px #E2E646;
         bottom: 0;
         content: "";
         display: block;
