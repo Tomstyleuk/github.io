@@ -10,7 +10,8 @@
   body {
     margin: -10px 0;
     padding: 0;
-    background: #fff;
+    background: whitesmoke;
+    /* background: #fff; */
   }
 
   #wrapper {
@@ -103,7 +104,6 @@ nav li, footer li {
 #vertical_nav {
     position: fixed;
     top: 200px;
-    left: 40px;
 }
 
 .git, .email {
@@ -133,6 +133,7 @@ nav li, footer li {
 #top_intro p {
     color: rgb(252, 252, 252);
     font-size: 1.5em;
+    width: 100%;
 }
 
 
