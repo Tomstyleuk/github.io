@@ -15,16 +15,6 @@
         /* background: url(images/_MG_0850\ 2.jpg)no-repeat; */
         height: 700px;
     }
-/* 
-    #head_img {
-        position: absolute;
-        top: 0;
-    }
-
-    #head_img img {
-        width: 100%;
-        height: auto;
-    } */
 
     #myname {
         color: #fff;
@@ -696,9 +686,9 @@
 
 /*----------- max-width: 480px -----------*/
 @media screen and (max-width: 480px) {
-    .current {
+    /* .current {
         border-bottom: solid red 2px;
-    }
+    } */
 
     #wrapper {
         background: #ffffff;
@@ -823,10 +813,10 @@
 
 
     /*----------- PROJEKTE -----------*/
-    #ueberschrift .projekte_title {
+    #projekte_title {
         margin: 280px 0 0 0 !important;
     }
-    
+
     #img1, #img2 {
         display: inline-block;
     }
@@ -1046,6 +1036,5 @@
         padding: 20px 0 22px 0;
         margin: 50px 0 0 118px;
     }
-
 
 }
