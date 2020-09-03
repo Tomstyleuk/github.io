@@ -1,0 +1,173 @@
+p {
+    line-height: 1.8;
+}
+
+#header {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../images/german_strategy_consulting.png);
+    height: 800px;
+}
+
+/* KUNDEN Introduction */
+#kunden_intro {
+    background-image: linear-gradient(90deg,#002a6d, #b08829);
+    /* background-image: linear-gradient(90deg, gray, lightgray); */
+    background-color: #4e4e4e;
+    border: white;
+    padding: 26px;
+    position: relative;
+    top: -340px;
+    left: 220px;
+    width: 50%;
+    z-index: 10000;
+}
+
+#kunden_intro p {
+    color: white;
+}
+
+.projekt_name {
+    color: white;
+    font-size: 3.2em;
+    mix-blend-mode: difference;
+}
+
+
+#title {
+    font-size: 3.4em;
+    margin: 50px 0 0 120px;
+}
+
+
+/* Ausgangssituation */
+#ausgangssituation,
+#aufgaben_bereich,
+#loesung1,
+#loesung2 {
+    width: 100%;
+}
+
+.ausgangssituation_content {
+    display: flex;
+    width: 100%;
+}
+
+.ausgangssituation_content p {
+    margin: 70px 0 0 120px;
+    width: 50%;
+}
+
+#old_image {
+    margin: -60px 0 0 90px;
+    width: 40%;
+}
+
+#old_image img, 
+.loe1_left img, 
+.loe2_right img {
+    box-shadow: lightgray 0 10px 6px 10px;
+}
+
+
+/* AUGABEN */
+#aufgaben_bereich {
+    margin: 150px 0;
+}
+
+#aufgaben {
+    background-color: #4e4e4e;
+    display: flex;
+}
+
+#aufgaben h2 {
+    color: white;
+}
+
+#aufgaben p {
+    color: white;
+    margin: 70px 0 70px 250px;
+    width: 50%;
+}
+
+
+/* LOSUNG 1 */
+#loesung_block1 {
+    display: flex;
+    margin: 70px 0 190px 0;
+    width: 100%;
+}
+
+.loe1_left {
+    margin: 0 0 0 120px;
+    width: 40%;
+}
+
+.loe1_right {
+    margin: -50px 0 0 -20px;
+    width: 46%;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+
+/* LOSUNGEN 2 */
+#loesung_block2 {
+    display: flex;
+    margin: 0;
+    width: 100%;
+}
+
+#loesung2 h3 {
+    margin: 70px 0 0 120px;
+    width: 50%;
+}
+
+.loe2_left {
+    margin: 70px 0 0 120px;
+    width: 50%;
+}
+
+.loe2_right {
+    margin: -32px 0 0 90px;
+    width: 40%;
+}
+
+/* ZUR Webseite Link */
+#link {
+    text-align: center;
+    margin: 150px;
+}
+
+#webseite_link {
+    background-color: #5c5c59;
+    border: solid #5c5c59 1px;
+    box-shadow: lightgray 0 8px 10px 4px;
+    color: white;
+    font-size: 2em;
+    font-weight: lighter;
+    padding: 16px 92px;
+}
+
+#webseite_link:hover {
+    background-color: #5c5c59;
+    border: solid #5c5c59 1px;
+    color: #EBF018;
+    font-size: 2em;
+    font-weight: lighter;
+    padding: 16px 92px;
+}
+
+
+/* RESPONSIVE */
+#resposinve {
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+
+#resposinve h3 {
+    margin: 0 0 -14px 0;
+}
