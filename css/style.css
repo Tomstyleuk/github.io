@@ -373,3 +373,9 @@ footer h1 {
     transform: translateY(100px);
     transition: 1s;
   }
+
+/* highlight */
+  /* highlight */
+  .highlight {
+    background: linear-gradient(transparent 0%, #E2E646 0%);
+  }
