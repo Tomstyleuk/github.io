@@ -379,3 +379,15 @@ footer h1 {
   .highlight {
     background: linear-gradient(transparent 0%, #E2E646 0%);
   }
+
+/* rotate img */
+.imgs {
+    transition: all 1s linear 0s;
+    border-radius: 50%;
+    cursor: pointer;
+    pointer-events: all;
+  }
+
+.imgs:hover {
+    transform: rotateY(360deg);
+　}
