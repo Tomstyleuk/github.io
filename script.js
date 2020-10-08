@@ -11,7 +11,7 @@
           return false;
         });
  
-        var typed3 = new Typed('#frontend', {
+        const typed3 = new Typed('#frontend', {
           strings: ['Web Frontend-Entwickler'],
           typeSpeed: 50,
           backSpeed: 30,
@@ -24,11 +24,11 @@
         function animation(){
             $('.fadeInUp').each(function(){
               //ターゲットの位置を取得
-              var target = $(this).offset().top;
+              const target = $(this).offset().top;
               //スクロール量を取得
-              var scroll = $(window).scrollTop();
+              const scroll = $(window).scrollTop();
               //ウィンドウの高さを取得
-              var windowHeight = $(window).height();
+              const windowHeight = $(window).height();
               //ターゲットまでスクロールするとフェードインする
               if (scroll > target - windowHeight){
                 $(this).css('opacity','1');
@@ -42,8 +42,19 @@
           });
 
 
-          // particle.js how to make stars 
-          // https://www.youtube.com/watch?v=Bi--IqcY5-0
+          const EffectTime = 900;
+          const DelayTime = 100;
+          $('.fadein').css({ opacity: 0 });
+
+          $(window).on('scroll load', function() {
+          const scMiddle = $(this).scrollTop() + $(this).height() / 2;
+          const listPos = $('.txt01').offset().top;
+          if ( listPos < scMiddle ) {
+            $('.fadein').each( function(index) {
+               $(this).delay(DelayTime * index).animate({'opacity': 1}, EffectTime);
+             });
+           }
+          });
 
   
     });
