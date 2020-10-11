@@ -36,10 +36,14 @@
             <h1 id="myname"><a href="#header" title="Home">TOMOYA</a></h1>
             <nav>
                 <ul>
-                    <li><a href="#projekte" title="zum Projekte">Projekte</a></li>
+                    <li><a href="#projekte" title="zum Projekte" glot-model="project">Projekte</a></li>
                     <li><a href="#skills" title="zum Skills">Skills</a></li>
                     <li><a href="#about" title="zum About">About</a></li>
-                    <li><a href="#kontakt" title="zum Kontakt">Kontakt</a></li>
+                    <li><a href="#kontakt" title="zum Kontakt" glot-model="contact">Kontakt</a></li>
+                    <!---Language change-->
+                    <li><a class="nav-link" href="#" id="de" glot-model="de">DE</a></li>
+                    <li><a class="nav-link" href="#" id="en" glot-model="us">EN</a></li>
+                    <!-------------------->
                 </ul>
             </nav>
         
@@ -56,27 +60,27 @@
                 <h2 id="frontend"></h2>
             </div>  
             <article id="">
-                <p>Ich habe 3 Jahre Erfahrung mit Web Frontend-Entwicklung. Meine Leidenschaft ist Programmierung und Webdesign.
+                <p glot-model="int">Ich habe 3 Jahre Erfahrung mit Web Frontend-Entwicklung. Meine Leidenschaft ist Programmierung und Webdesign.
                     Optimierung für verschiedene Endgeräten. Programmierung individueller Funktionalitäten für SEO. Ich kann jedes komplexe Layout und die Anforderungen von Kunden mit meinen Ideen im Web umsetzten. 
                     Ich lege großen Wert auf nutzerorientiertes Design und Benutzerfreundlichkeit, daher glaube ich, dass es wichtig ist, eng mit Designern und Entwicklungsteams zusammenzuarbeiten. </p>
             </article>
         </section>
 
         <div id="projekte_title">
-            <h1 id="ueberschrift">Projekte</h1>
+            <h1 id="ueberschrift" glot-model="project">Projekte</h1>
         </div>
         <section id="projekte" class="fadeInUp">
             <div id="works1">
                 <a href="german_strategy.html" id="img1" class="hover-parent" title="Link zur Arbeitsprozess">
                     <img src="images/desktop-4.png" alt="Webseite von Desktop" />
-                    <p class="hover-mask">Corporate Webseite für German Strategy Consulting.<br>
+                    <p class="hover-mask" glot-model="corporate">Corporate Webseite für German Strategy Consulting.<br>
                     Konzeption, Entwicklung, Design
                     HTML5, CSS3, Javascript, PHP, Wordpress, Figma</p>
                 </a>
 
                 <div id="referenz">
-                    <p>" Tomoya arbeitete mit mir am Design und an den Funktionen der Webseite, was zu einem großartigen Ergebnis führte.
-                    Er ist sehr proaktiv und freundlich im Gedankenaustausch und sehr flexibel bei der Durchführung von Änderungen. "<br> <span class="highlight"><a href="german_strategy.html" title="Link zur Arbeitsprozess">Mehr erfahren >></a></span>
+                    <p glot-model="review">" Tomoya arbeitete mit mir am Design und an den Funktionen der Webseite, was zu einem großartigen Ergebnis führte.
+                    Er ist sehr proaktiv und freundlich im Gedankenaustausch und sehr flexibel bei der Durchführung von Änderungen. "<br> <span class="highlight"><a href="german_strategy.html" title="Link zur Arbeitsprozess" glot-model="process">Mehr erfahren >></a></span>
                     <h4>Hideyuki Wada at <a href="https://eu-strategy.com" target="_blank" class="linkseite" title="Link zur Webseite">German Strategy Consulting</a></h4>
                     </p>
                 </div>
@@ -93,13 +97,13 @@
                     <h3 id="projekte_name">
                         <a href="https://github.com/Tomstyleuk/Exercise/tree/master/todo_List" class="linkseite" title="Link zum GitHub" target="_blank">To Do List</a>
                     </h3>
-                    <p>Ich gestaltete die To-Do List in meiner Freizeit mit HTML5, CSS3, Javascript, jQuery.</p>
+                    <p glot-model="toDo">Ich gestaltete die To-Do List in meiner Freizeit mit HTML5, CSS3, Javascript, jQuery.</p>
                 </div>
             </div><!--works2-->
         </section><!-- projekte -->
 
         <h1 id="ueberschrift" class="ueberschrift">Skills</h1>
-        <p class="prog_tools">Programmiersprache & Tools</p>
+        <p class="prog_tools" glot-model="tools">Programmiersprache & Tools</p>
         <section id="skills" class="fadein">
             <div id="Programmiersprache">
                 <h2 class="fadein txt01">Javascript (ES6)</h2>
@@ -122,26 +126,26 @@
 
         <h1 id="ueberschrift" class="mystory">My Story</h1>
         <section id="about" class="fadeInUp">
-            <p><span class="highlight">Hi, danke, dass Sie mein Portfolio besuchen und bis hier gelesen haben.</span> Ich kam 2015 mit dem Traum nach Deutschland, ein japanisches Restaurant in Europa zu eröffnen. 2017 musste ich diesen Traum aufgeben, da ich Allergien gegen die Küchenhandschuhe und Reinigungsmittel entwickelt habe. Danach habe ich eine deutsche Frau in Japan geheiratet und lebe seit 2018 wieder in Deutschland. <span class="highlight">Im Jahr 2018 begann ich Deutsch und Web-Entwicklung gleichzeitig zu lernen, da ich mich seit längerer Zeit dafür interessierte.</span> Ich verliebte mich in Programmierung und Design, denn sie ermöglichen es, meine Ideen im Web auszudrücken und zu formen. Außerdem macht mir der Prozess der Entwicklung der Webseite oder Applikationen Spaß - von Konzeption über Entwurf, Layout bis zu Coding. 
+            <p glot-model="about"><span class="highlight">Hi, danke, dass Sie mein Portfolio besuchen und bis hier gelesen haben.</span> Ich kam 2015 mit dem Traum nach Deutschland, ein japanisches Restaurant in Europa zu eröffnen. 2017 musste ich diesen Traum aufgeben, da ich Allergien gegen die Küchenhandschuhe und Reinigungsmittel entwickelt habe. Danach habe ich eine deutsche Frau in Japan geheiratet und lebe seit 2018 wieder in Deutschland. <span class="highlight">Im Jahr 2018 begann ich Deutsch und Web-Entwicklung gleichzeitig zu lernen, da ich mich seit längerer Zeit dafür interessierte.</span> Ich verliebte mich in Programmierung und Design, denn sie ermöglichen es, meine Ideen im Web auszudrücken und zu formen. Außerdem macht mir der Prozess der Entwicklung der Webseite oder Applikationen Spaß - von Konzeption über Entwurf, Layout bis zu Coding. 
                     <span class="highlight">2019 habe ich meine Deutsch-Prüfung B2 Niveau bestanden und im März 2020 die Weiterbildung zum <strong>
                     <a href="https://www.wbstraining.de/weiterbildung-web- developer-webmasters-zertifizierung/" class="wbslink" title="zum Web Frontend Developer Kurs" target="_blank">Web Entwickler</a></strong> abgeschlossen.</span>
             Ich bin immer bestrebt, meine Programmierkenntnisse zu verbessern und zu vertiefen, damit ich sie bei der Gestalltung der Webseiten anwenden und nützliche Applikation entwickeln kann. <span class="highlight">Mein Traum ist es, den awwwards zu gewinnen, also momentan konzentriere ich mich React, three.js, GSAP und Deutsch C1 zu erlernen. Meine Neugierde hat kein Ende in Sicht. :)</span> Mir macht es Spaß, die Webseite zu konzipieren, zu gestalten, das Layout zu entwerfen und zu programmieren. Außerdem denke ich gerne darüber nach, wie ich die Wünsche und die Marke meines Kunden im Web zum Ausdruck bringen kann.
             Wenn meine Kunden mit meiner erstellteten Webseite zufrieden sind, bin ich sehr glücklich :)</p>
-            <h2><a href="images/Neu_Lebenslauf.pdf" id="lebenslauf" title="Schauen Sie meine Lebenslauf" target="_blank">Lebenslauf</a></h2>
+            <h2 glot-model="cv"><a href="images/Neu_Lebenslauf.pdf" id="lebenslauf" title="Schauen Sie meine Lebenslauf" target="_blank">Lebenslauf</a></h2>
         </section><!-- story -->
 
         <section id="kontakt" class="fadeInUp">
-            <p>Ich freue mich auf Ihre Kontakt und uns kennenzulernen. :)</p>
+            <p glot-model="text">Ich freue mich auf Ihre Kontakt und uns kennenzulernen. :)</p>
             <h2><a href="mailto:hjtakinami@gmail.com" id="email_adresse">hjtakinami@gmail.com</a></h2>
         </section><!-- kontakt -->
 
         <footer id="footer">
             <h1><a href="#header" title="Home">TOMOYA</a></h1>
             <ul>
-                <li><a href="#projekte" title="zum Projekte">Projekte</a></li>
+                <li><a href="#projekte" title="zum Projekte" glot-model="project">Projekte</a></li>
                 <li><a href="#skills" title="zum Skills">Skills</a></li>
                 <li><a href="#about" title="zum About">About</a></li>
-                <li><a href="#kontakt" title="zum Kontakt">Kontakt</a></li>
+                <li><a href="#kontakt" title="zum Kontakt" glot-model="contact">Kontakt</a></li>
             </ul>
         </footer>
 
@@ -149,5 +153,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/glottologist"></script>
 </body>
 </html>
