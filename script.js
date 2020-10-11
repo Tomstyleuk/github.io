@@ -1,6 +1,29 @@
 (function(window, document, $) {
     $(function() {
       "use strict";
+        
+      /*--------- Language change ---------*/ 
+      const glot = new Glottologist();
+
+      //loading JSON
+      glot.import("lang.json").then(() => {
+        glot.render();
+      })
+
+      /****Event for changing the languages **/
+     const de = document.getElementById('de');
+     const en = document.getElementById('en');
+
+     de.addEventListener('click', e => {
+       e.preventDefault();
+       glot.render('de');
+     })
+     
+     en.addEventListener('click', e => {
+       e.preventDefault();
+       glot.render('en');
+     })
+    /*------------------------*/  
   
       $('a[href^="#"]').on("click", function() {
           const speed = 600;
@@ -10,9 +33,9 @@
           $('body,html').animate({scrollTop:position}, speed, 'swing');
           return false;
         });
- 
+
         const typed3 = new Typed('#frontend', {
-          strings: ['Web Frontend-Entwickler'],
+          strings: ['Web Frontend-Developer'],
           typeSpeed: 50,
           backSpeed: 30,
           smartBackspace: true, // this is a default
