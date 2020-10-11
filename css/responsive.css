@@ -1139,7 +1139,7 @@
         display: flex;
     }
 
-    nav li, footer li {
+    nav li {
         margin: 0 8% 0 0;
     }
    
