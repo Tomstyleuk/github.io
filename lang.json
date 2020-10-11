@@ -1,1 +1,58 @@
+{
 
+    "project": {
+        "de": "Projekte",
+        "en": "Projects"
+    },
+  
+    "contact": {
+        "de": "Kontakt",
+        "en": "Contact"
+    },
+
+    "int": {
+        "de": "Ich habe 3 Jahre Erfahrung mit Web Frontend-Entwicklung. Meine Leidenschaft ist Programmierung und Webdesign. Optimierung für verschiedene Endgeräten. Programmierung individueller Funktionalitäten für SEO. Ich kann jedes komplexe Layout und die Anforderungen von Kunden mit meinen Ideen im Web umsetzten. Ich lege großen Wert auf nutzerorientiertes Design und Benutzerfreundlichkeit, daher glaube ich, dass es wichtig ist, eng mit Designern und Entwicklungsteams zusammenzuarbeiten.",
+        "en": "I have 3 years experience in web frontend development. My passion is programming and web design. Optimisation for different devices. Programming individual functionalities for SEO. I can implement any complex layout and the requirements of customers with my ideas on the web. I attach great importance to user-oriented design and usability, so I believe it is important to work closely with designers and development teams."
+    },
+
+    "corporate": {
+        "de": "Corporate Webseite für German Strategy Consulting.<br> Konzeption, Entwicklung, Design, HTML5, CSS3, Javascript, PHP, Wordpress, Figma.",
+        "en": "Corporate website for German Strategy Consulting.<br> Conception, development, design, HTML5, CSS3, Javascript, PHP, Wordpress, Figma."
+    },
+
+    "review": {
+        "de": "' Tomoya arbeitete mit mir am Design und an den Funktionen der Webseite, was zu einem großartigen Ergebnis führte. Er ist sehr proaktiv und freundlich im Gedankenaustausch und sehr flexibel bei der Durchführung von Änderungen. '",
+        "en": "' Tomoya worked with me on the design and functions of the website, which led to a great result. He is very proactive and friendly in exchanging ideas and very flexible in making changes '"
+    },
+
+    "process": {
+        "de": "Mehr erfahren",
+        "en": "Learn more"
+    },
+
+    "toDo": {
+        "de": "Ich gestaltete die To-Do List in meiner Freizeit mit HTML5, CSS3, Javascript, jQuery.",
+        "en": "I built the To-Do List in my spare time with HTML5, CSS3, Javascript, jQuery."
+    },
+
+    "tools": {
+        "de": "Programmiersprache & Tools",
+        "en": "Programming Languages & Tools"
+    },
+
+    "about": {
+        "de": "<span class=\"highlight\">Hi, danke, dass Sie mein Portfolio besuchen und bis hier gelesen haben.</span> Ich kam 2015 mit dem Traum nach Deutschland, ein japanisches Restaurant in Europa zu eröffnen. 2017 musste ich diesen Traum aufgeben, da ich Allergien gegen die Küchenhandschuhe und Reinigungsmittel entwickelt habe. Danach habe ich eine deutsche Frau in Japan geheiratet und lebe seit 2018 wieder in Deutschland. <span class=\"highlight\">Im Jahr 2018 begann ich Deutsch und Web-Entwicklung gleichzeitig zu lernen, da ich mich seit längerer Zeit dafür interessierte.</span> Ich verliebte mich sofort in Programmierung und Web Design, denn sie ermöglichen es, meine Ideen im Web auszudrücken und zu formen. Außerdem macht mir der Prozess der Entwicklung der Webseite oder Applikationen Spaß - von Konzeption über Entwurf, Layout bis zu Coding. <span class=\"highlight\">2019 habe ich meine Deutsch-Prüfung B2 Niveau bestanden und im März 2020 <strong><a href=\"https://www.wbstraining.de/weiterbildung-web-developer-webmasters-zertifizierung/\" class=\"wbslink\" target=\"_blank\">die Weiterbildung</a> zum Web Entwickler</strong> abgeschlossen.</span> Ich bin immer bestrebt, meine Programmierkenntnisse zu verbessern und zu vertiefen, damit ich sie bei der Gestalltung der kreativen Webseiten anwenden und nützliche Applikation entwickeln kann. <span class=\"highlight\">Mein Traum ist es, den awwwards zu gewinnen, also momentan konzentriere ich mich React, three.js, GSAP und Deutsch C1 Niveau zu erlernen. Meine Neugierde hat ohne Ende in Sicht. :)</span> Mir macht es Spaß, die Webseite zu konzipieren, zu gestalten, das Layout zu entwerfen und zu programmieren. Außerdem denke ich gerne darüber nach, wie ich die Wünsche und die Marke meines Kunden im Web zum Ausdruck bringen kann. Wenn meine Kunden mit meiner erstellteten Webseite zufrieden sind, bin ich sehr glücklich :)",
+        "en": "<span class=\"highlight\">Hi, thank you for visiting my portfolio and reading so far.</span> I came to Germany in 2015 with the dream to open a Japanese restaurant in Europe, but in 2017 I had to give up that dream, because my hands developed allergies to the kitchen gloves and cleaning products. After that I married a german in Japan and since 2018 I have been living in Germany again.<span class=\"highlight\"> In 2018 I started to learn German and web development at the same time, because I had been interested in them for a long time,</span> and then I fell in love with programming and web design immediately, because they allow me to express and shape my ideas on the web. I also enjoy the process of developing the website or applications - from conception, design and coding.<span class=\"highlight\"> In 2019 I passed my German exam B2 level and in March 2020 I completed <strong><a href=\"https://www.wbstraining.de/weiterbildung-web-developer-webmasters-zertifizierung/\" class=\"wbslink\" target=\"_blank\">the advanced training</a> to become a web developer.</strong></span> I always strive to improve and deepen my programming skills, so that I can use them in developing creative websites and useful applications.<span class=\"highlight\"> My dream is to win the awwwards, so at the moment I am focusing on learning React, three.js, GSAP and German C1 level. My curiosity is endless. :)</span> I enjoy conceiving and designing the website, creating the design and programming, and enjoy thinking about how I can express my client's wishes and brand on the web. If my customers are satisfied with my developed website, I am very happy. :)"
+    },
+
+    "cv": {
+        "de": "<a href=\"images/Lebenslauf.pdf\" id=\"lebenslauf\" title=\"Schauen Sie meine Lebenslauf\" target=\"_blank\">Lebenslauf</a>",
+        "en": "<a href=\"images/Lebenslauf.pdf\" id=\"lebenslauf\" title=\"Have a look at my resume\" target=\"_blank\">Resume</a>"
+    },
+
+    "text": {
+        "de": "Ich freue mich auf Ihre Kontakt und uns kennenzulernen. :)",
+        "en": "I am looking forward to hearing from you and getting to know us. :)"
+    }
+
+  }
