@@ -1142,6 +1142,10 @@
     nav li, footer li {
         margin: 0 8% 0 0;
     }
+   
+   footer li {
+       margin: 0 4% 0 -1%;
+   }
 
     #myname a:hover, nav li a:hover, footer li a:hover, footer h1 a:hover {
         color: #EBF018;
