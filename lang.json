@@ -53,6 +53,64 @@
     "text": {
         "de": "Ich freue mich auf Ihre Kontakt und uns kennenzulernen. :)",
         "en": "I am looking forward to hearing from you and getting to know us. :)"
+    },
+    
+    
+    "gscIntro": {
+        "de": "German Strategy Consulting (GSC) ist der erste Partner, der mit einem japanischen Unternehmen an Ihren europäischen Strategien arbeitet. GSC hilft den Kunden, ihre Strategien mit Leben zu füllen. Die in Japan entwickelten Strategien fliesen mit 'lokaler europäischer Perspektiv' in die Unternehmensplanung ein. GSC bietet zwei Dienstleistungen an: Die erste ist eine aus Europa angebotene Unternehmens- und Managementstrategieberatung. Der zweite ist ein Dienst, der regelmäßigig sorgfältig ausgewählte Informationen aus den europäischen Medien, Regierungs- und Forschungseinrichtungen liefert. CEO Herr Wada war Leiter der Geschäftsstrategie bei der FBC Business Consulting GmbH in Frankfurt am Main, wo er für die Unterstützung japanischer Unternehmen zuständig war, bevor er sein Geschäft 2019 ausgliederte und die Zusammenarbeit mit der FBC fortsetzte.",
+
+       "en": "German Strategy Consulting (GSC) is the first partner to work with a Japanese company on your European strategies. GSC helps clients to bring their strategies to life. The strategies developed in Japan are incorporated into the corporate planning with a 'local European perspective'. GSC offers two services: The first is a corporate and management strategy consultancy service offered from Europe. Secondly, a service that regularly provides well selected information from the European media, government and research institutions. The CEO, Mr Wada was Head of Business Strategy at FBC Business Consulting GmbH in Frankfurt am Main, where he was responsible for supporting Japanese companies before spinning off his business in 2019 and continuing his cooperation with FBC."
+    },
+
+    "titleSituation": {
+        "de": "Ausgangssituation",
+        "en": "Initial situation"
+    },
+
+    "situation": {
+        "de": "Er hatte eine Webseite, aber das Design war veraltet und er wollte eine neue moderne Webseite, die mit einer Vielzahl von Endgeräten kompatibel sein sollte. Außerdem sollte das Problem gelöst werden, dass der Name und die Webseite des Unternehmens nicht erkannt und er bekam selten Anfragen aus Japan. Er wollte mehr Trafik auf seiner Webseite und neue Kunden gewinnen.",
+        "en": "He had a website which the design was outdated and he wanted a new modern website that would be compatible with a wide range of devices. He also wanted a solution to the problems of the company's name and website not being recognised and he rarely received requests from Japanese company. Our goals are to get more traffic on his website and to attract new clients."
+    },
+
+    "titleTask": {
+        "de": "Aufgaben",
+        "en": "Missions"
+    },
+
+    "taskDescri": {
+        "de": "Aufgaben waren Konzeption und Entwicklung - von der Erstberatung über Layout Programmierung, individuelles Wordpress Theme sowie responsive Web Design bis zur geeignete Plug-Ins. Ich arbeitete auch an der SEO und die Programmierung individueller Funktionalitäten, um das japanische Unternehmen dazu zu bringen, sein Unternehmen und seine Webseite zu erkennen. Außerdem brauchten wir ein modernes Design, um einen das Erscheinungsbild zu modernisieren. Die Zielgruppe waren japanische Direktoren (männlich zwischen 30 und 50 Jahren) von Firmen in Tokio die für Abteilungen in der Unternehmensplanung zuständig sind. Das Ziel der Webseite war es, mehr Trafik auf die Webseite von GSC zu locken und neue Kunden zu gewinnen. Außerdem war es ein weiterer Wunsch zwei Bolg-Seiten umzusetzen.",
+        "en": "Missions were conception and development - from initial consultation, layout, programming, individual Wordpress theme and responsive web design to suitable plug-ins. I also worked on the SEO and programming of individual functionalities to make the Japanese company recognize his company and his website. We also needed a modern design to modernise the appearance of the website. The target group were Japanese directors (male between 30 and 50 years old) of companies in Tokyo who are responsible for departments in corporate planning. The aim of the website was to get more traffic to the GSC website and attract new clients. It was also another wish to implement two Blog pages."
+    },
+
+    "titleSolution": {
+        "de": "Lösungen",
+        "en": "Solutions"
+    },
+
+    "sol1": {
+        "de": "Modernes Design und Optimierung für verschiedene Endgerät",
+        "en": "Modern design and optimisation for various end-devices"
+    },
+
+    "solDescri": {
+        "de": "Basis für die technische Umsetzung war das Content-Management-System (CMS) Wordpress. Das leistungsstarke CMS erlaubt ganz individuelle technische Lösungen und ermöglicht die einfache und effiziente Pflege im Backend. Das Image der Webseite sollte ehrlich, anspruchsvoll und „trendy“ wirken. Daher habe ich mich für drei Farben entschieden, die diese Seriosität ausstrahlen: dunkel brau, helle grau und Gold als Akzetnfarbe. Ich habe zuerst das CI mit Figma entworfen. In dieser Phase haben wir auch responsive web design entschieden und diese Webseite wurde ohne Bootstrap für verschiedene Endgeräten optimiert.",
+        "en": "The basis for the technical implementation was the content management system (CMS) Wordpress. The powerful CMS allows very individual technical solutions and enables easy and efficient maintenance in the backend. The image of the website should be honest, sophisticated and 'trendy'. Therefore I decided on three colours that present this reliability: dark blue, light grey and gold as accent colour. Firstly I designed the CI with Figma. In this phase we also decided on responsive web design and this website was optimised for various devices without bootstrap."
+    },
+
+    "sol2": {
+        "de": "Implementierung zwei Blog-Seiten, um Informationen und seine Einsichten, die er in Deutschland erhält, zu veröffentlichen",
+        "en": "Implementation of two blog pages to publish information and his insights"
+    },
+
+    "solDescri2": {
+        "de": "Wir haben den Inhalt der Webseite besprochen, wie die Webseite zu strukturieren ist. Er möchte deutsche und europäische Wirtschaftsnachrichten und Informationen veröffentlichen, die für Japaner schwer zugänglich sind. So haben wir zwei Blog-Seiten eingerichtet, in welchen er die Wirtschaftsnachrichten, veröffentlichen kann. Außerdem wollte er die Zahl der Anfragen erhöhen, deshalb haben wir auf jeder Seite ein Kontaktformular zur Verfügung gestellt, so dass sich seine Zielgruppe sofort mit ihm in Verbindung setzen kann.<br> Unsere häufige Kommunikation und unser wöchentlicher Gedankenaustausch ermöglichten es mir, schnell auf alle Änderuzngswünsche einzugehen.",
+        "en": "We discussed contents of the website, how to structure it. He wanted to publish German and European business news and information that is difficult for Japanese companies to access. Thus, we have set up two blog pages where he can publish the business news and his insights. In addition, he also wanted to increase the number of inquires, so we have provided a contact form on each pages so that his target group can get in touch with him immediately.<br> Our frequent communication and our weekly exchange of ideas enabled me to respond quickly to all his change requests."
+    },
+
+    "linkWebsite": {
+        "de": "Zur Webseite",
+        "en": "Go to the website"
     }
+
 
   }
