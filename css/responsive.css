@@ -1208,7 +1208,7 @@
     }
    
     #projekte_title #ueberschrift {
-         margin: 470px 0 0 0 !important;
+         margin: 470px 0 0 36px !important;
     }
 
     #ueberschrift::first-letter { /*重複してるもしくは同じcssがあるから統一する*/
