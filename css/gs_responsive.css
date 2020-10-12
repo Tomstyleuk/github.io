@@ -575,16 +575,16 @@
         color: white;
         font-size: 1em;
         font-weight: lighter;
-        padding: 12px 14px;
+        padding: 12px 12px;
     }
 
     #webseite_link:hover {
         background-color: #5c5c59;
         border: solid #5c5c59 1px;
         color: #EBF018;
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: lighter;
-        padding: 12px 14px;
+        padding: 12px 12px;
     }
     
 }
