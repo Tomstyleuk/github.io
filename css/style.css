@@ -391,3 +391,7 @@ footer h1 {
 .imgs:hover {
     transform: rotateY(360deg);
 　}
+
+#de, #en {
+    cursor: pointer;
+}
