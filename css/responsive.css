@@ -1206,6 +1206,10 @@
         font-size: 2.5em;
         margin: 50px 0 0 36px;
     }
+   
+    #projekte_title #ueberschrift {
+         margin: 470px 0 0 0 !important;
+    }
 
     #ueberschrift::first-letter { /*重複してるもしくは同じcssがあるから統一する*/
         font-size: 1.5em;
