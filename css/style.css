@@ -203,7 +203,6 @@ nav li, footer li {
     transition: all 0.8s ease;
     padding-bottom: 0;
 }
-/*//////////////////////*/
 
 
 #referenz {
@@ -225,7 +224,6 @@ nav li, footer li {
 
 /*----------- SKILLS -----------*/
 .headline {
-    /* display: inline-block; */
     float: left;
 }
 
@@ -243,7 +241,6 @@ nav li, footer li {
     clip-path: polygon(10% 0, 100% 0%, 85% 100%, 0% 100%);
     clear: both;
     display: flex;
-    /* height: 400px; */
     padding: 30px 0;
     width: 100%;
 }
@@ -347,8 +344,6 @@ footer h1, footer a {
 footer ul {
     display: flex;
     margin: 70px 0 0 180px;
-    /* position: relative;
-    left: 500px; */
     width: auto;
 }
 
@@ -389,9 +384,9 @@ footer h1 {
     pointer-events: all;
   }
 
-.imgs:hover {
+  .imgs:hover {
     transform: rotateY(360deg);
-　}
+  }
 
 #de, #en {
     cursor: pointer;
