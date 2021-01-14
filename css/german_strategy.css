@@ -11,7 +11,7 @@ p {
 }
 
 /* KUNDEN Introduction */
-#kunden_intro {
+#client_intro {
     background-image: linear-gradient(90deg,#002a6d, #b08829);
     /* background-image: linear-gradient(90deg, gray, lightgray); */
     background-color: #4e4e4e;
@@ -24,7 +24,7 @@ p {
     z-index: 10000;
 }
 
-#kunden_intro p {
+#client_intro p {
     color: white;
 }
 
@@ -41,20 +41,20 @@ p {
 }
 
 
-/* Ausgangssituation */
-#ausgangssituation,
-#aufgaben_bereich,
-#loesung1,
-#loesung2 {
+/* initial_situation */
+#initial_situation,
+#tasks_area,
+#solution1,
+#solution2 {
     width: 100%;
 }
 
-.ausgangssituation_content {
+.initial_situation_content {
     display: flex;
     width: 100%;
 }
 
-.ausgangssituation_content p {
+.initial_situation_content p {
     margin: 70px 0 0 120px;
     width: 50%;
 }
@@ -65,27 +65,27 @@ p {
 }
 
 #old_image img, 
-.loe1_left img, 
-.loe2_right img {
+.sol1_left img, 
+.sol2_right img {
     box-shadow: lightgray 0 10px 6px 10px;
 }
 
 
 /* AUGABEN */
-#aufgaben_bereich {
+#tasks_area {
     margin: 150px 0;
 }
 
-#aufgaben {
+#tasks {
     background-color: #4e4e4e;
     display: flex;
 }
 
-#aufgaben h2 {
+#tasks h2 {
     color: white;
 }
 
-#aufgaben p {
+#tasks p {
     color: white;
     margin: 70px 0 70px 250px;
     width: 50%;
@@ -93,18 +93,18 @@ p {
 
 
 /* LOSUNG 1 */
-#loesung_block1 {
+#solution_block1 {
     display: flex;
     margin: 70px 0 190px 0;
     width: 100%;
 }
 
-.loe1_left {
+.sol1_left {
     margin: 0 0 0 120px;
     width: 40%;
 }
 
-.loe1_right {
+.sol1_right {
     margin: -50px 0 0 -20px;
     width: 46%;
 }
@@ -115,23 +115,23 @@ h3 {
 
 
 /* LOSUNGEN 2 */
-#loesung_block2 {
+#solution_block2 {
     display: flex;
     margin: 0;
     width: 100%;
 }
 
-#loesung2 h3 {
+#solution2 h3 {
     margin: 70px 0 0 120px;
     width: 50%;
 }
 
-.loe2_left {
+.sol2_left {
     margin: 70px 0 0 120px;
     width: 50%;
 }
 
-.loe2_right {
+.sol2_right {
     margin: -32px 0 0 90px;
     width: 40%;
 }
