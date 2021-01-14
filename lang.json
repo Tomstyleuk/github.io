@@ -11,18 +11,18 @@
     },
 
     "int": {
-        "de": "Ich arbeitete in einem Webagentur als Frontend-Entwickler in Praktikum und meine Aufgaben waren Erstellung Websites mit Wordpress, Coding HTML email Templates und Coding Landingsites.  Meine Leidenschaft ist Programmierung und Webdesign. Nach drei Jahren Eigenstudium und Weiterbildung zum Web Developer, beherrsche ich nicht nur neben JavaScript, HTML5, CSS3, PHP und Responsive Webdesign, sondern auch die Durchführung von der Browser- und Performance-Optimierungen und die Sorge für eine gute User Experience. Ich kann jedes komplexe Layout und die Anforderungen von Kunden mit meinen Ideen im Web umsetzten. Ich lege großen Wert auf nutzerorientiertes Design und Benutzerfreundlichkeit, daher glaube ich, dass es wichtig ist, eng mit Designern und Entwicklungsteams zusammenzuarbeiten.",
-        "en": "I worked in a web agency as a frontend developer in internship and my tasks were creating websites with wordpress, coding HTML email templates and coding landing sites.  My passion is programming and web design. After three years of self-study and advanced training as a web developer, I have mastered not only JavaScript, HTML5, CSS3, PHP and Responsive Webdesign, but also the implementation of browser and performance optimisation and the care for a good user experience. I can implement any complex layout and my client's requirements with my ideas on the web. I attach great importance to user-oriented design and usability. Therefore I believe it is important to work closely with designers and development teams."
+        "de": "Ich arbeitete in einem Webagentur als Frontend-Entwickler in Praktikum und meine Aufgaben waren Erstellung Websites mit Wordpress, Coding HTML email Templates und Landingsites. Meine Leidenschaft ist Programmierung und Webdesign. Nach drei Jahren Eigenstudium und Weiterbildung zum Web Developer, beherrsche ich nicht nur neben JavaScript, HTML5, CSS3 und Responsive Webdesign, sondern auch die Sorge für eine gute User Experience. Ich kann jedes komplexe Layout und die Anforderungen von Kunden mit meinen Ideen im Web umsetzten. Ich lege großen Wert auf nutzerorientiertes Design und Benutzerfreundlichkeit, daher glaube ich, dass es wichtig ist, eng mit Designern und Entwicklungsteams zusammenzuarbeiten.",
+        "en": "I worked in a web agency as a frontend developer in internship and my tasks were creating websites with wordpress, coding HTML email templates and landing pages. My passion is programming and web design. After three years of self-study and advanced training as a web frontend developer, I have mastered not only HTML5, CSS3 and Responsive Webdesign, but also the pay attention for a good user experience. I can implement any complex layout and my client's requirements with my ideas on the web. I attach great importance to user-oriented design and usability. Therefore I believe it is important to work closely with designers and development teams."
     },
 
     "corporate": {
-        "de": "Corporate Webseite für German Strategy Consulting.<br> Konzeption, Entwicklung, Design, HTML5, CSS3, Javascript, PHP, Wordpress, Figma.",
-        "en": "Corporate website for German Strategy Consulting.<br> Conception, development, design, HTML5, CSS3, Javascript, PHP, Wordpress, Figma."
+        "de": "Corporate Webseite für German Strategy Consulting.<br> Konzeption, Entwicklung, Design, HTML5, CSS3, JavaScript, PHP, Wordpress, Figma.",
+        "en": "Corporate website for German Strategy Consulting.<br> Conception, development, design, HTML5, CSS3, JavaScript, PHP, Wordpress, Figma."
     },
 
     "review": {
         "de": "' Tomoya arbeitete mit mir am Design und an den Funktionen der Webseite, was zu einem großartigen Ergebnis führte. Er ist sehr proaktiv und freundlich im Gedankenaustausch und sehr flexibel bei der Durchführung von Änderungen. '",
-        "en": "' Tomoya worked with me on the design and functions of the website, which led to a great result. He is very proactive and friendly in exchanging ideas and very flexible in making changes. '"
+        "en": "' Tomoya worked hard with me on the design and functions of the website, which led to a great result. He is very proactive and friendly in exchanging ideas and very flexible in making changes. '"
     },
 
     "process": {
@@ -32,7 +32,7 @@
 
     "toDo": {
         "de": "Ich gestaltete die To-Do List in meiner Freizeit mit HTML5, CSS3, Javascript, jQuery.",
-        "en": "I built the To-Do List in my spare time with HTML5, CSS3, Javascript, jQuery."
+        "en": "I built the To-Do List in my spare time with HTML5, CSS3, JavaScript, jQuery."
     },
 
     "tools": {
