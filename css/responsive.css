@@ -1212,7 +1212,7 @@
    
     #projekte_title #headline {
          margin: 470px 0 0 36px !important;
-         padding-top: 30px;
+         padding-top: 45px;
     }
 
     #headline::first-letter { /*重複してるもしくは同じcssがあるから統一する*/
