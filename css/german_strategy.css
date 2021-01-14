@@ -147,7 +147,7 @@ h3 {
     border: solid #5c5c59 1px;
     box-shadow: lightgray 0 8px 10px 4px;
     color: white;
-    font-size: 2em;
+    font-size: 1em;
     font-weight: lighter;
     padding: 16px 92px;
 }
@@ -156,7 +156,7 @@ h3 {
     background-color: #5c5c59;
     border: solid #5c5c59 1px;
     color: #EBF018;
-    font-size: 2em;
+    font-size: 1em;
     font-weight: lighter;
     padding: 16px 92px;
 }
