@@ -328,7 +328,7 @@
     }
     
     #email_adresse {
-        font-size: 4em;
+        /* font-size: 4em; */
         position: relative;
         /* text-shadow: 1px 1px 2px #5c5c59; */
     }
@@ -350,7 +350,7 @@
     }
     
     #email_adresse:hover {
-        font-size: 4em;
+        /* font-size: 4em; */
     }
     
     /*----------- FOOTER -----------*/
@@ -669,7 +669,7 @@
     }
 
     #email_adresse {
-        font-size: 2.4em;
+        /* font-size: 2.4em; */
         position: relative;
         /* text-shadow: 1px 1px 2px #5c5c59; */
     }
@@ -691,7 +691,7 @@
     }
 
     #email_adresse:hover {
-        font-size: 2.4em;
+        /* font-size: 2.4em; */
     }
 
     /*----------- FOOTER -----------*/
@@ -1021,7 +1021,7 @@
     }
 
     #email_adresse {
-        font-size: 2em;
+        /* font-size: 2em; */
         position: relative;
         /* text-shadow: 1px 1px 2px #5c5c59; */
     }
@@ -1043,7 +1043,7 @@
     }
 
     #email_adresse:hover {
-        font-size: 2em;
+        /* font-size: 2em; */
     }
 
     #kontakt p {
@@ -1390,7 +1390,7 @@
     }
 
     #email_adresse {
-        font-size: 2em;
+        /* font-size: 2em; */
         position: relative;
         /* text-shadow: 1px 1px 2px #5c5c59; */
     }
@@ -1412,7 +1412,7 @@
     }
 
     #email_adresse:hover {
-        font-size: 2em;
+        /* font-size: 2em; */
     }
 
     /*----------- FOOTER -----------*/
