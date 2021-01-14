@@ -259,7 +259,8 @@
     }
     
     #skills {
-        background-color: #fdfdfd;
+        background: linear-gradient(180deg, #fdfdfd, lavender);
+        clip-path: polygon(10% 0, 100% 0%, 85% 100%, 0% 100%);
         clear: both;
         display: flex;
         /* height: 400px; */
@@ -599,7 +600,8 @@
     }
 
     #skills {
-        background-color: #fdfdfd;
+        background: linear-gradient(180deg, #fdfdfd, lavender);
+        clip-path: polygon(10% 0, 100% 0%, 85% 100%, 0% 100%);
         clear: both;
         display: flex;
         /* height: 400px; */
@@ -947,7 +949,8 @@
     }
 
     #skills {
-        background-color: #fdfdfd;
+        background: linear-gradient(180deg, #fdfdfd, lavender);
+        clip-path: polygon(10% 0, 100% 0%, 85% 100%, 0% 100%);
         clear: both;
         display: block;
         /* height: 400px; */
@@ -1315,7 +1318,8 @@
     }
 
     #skills {
-        background-color: #fdfdfd;
+        background: linear-gradient(180deg, #fdfdfd, lavender);
+        clip-path: polygon(10% 0, 100% 0%, 85% 100%, 0% 100%);
         clear: both;
         display: block;
         /* height: 400px; */
