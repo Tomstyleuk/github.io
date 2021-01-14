@@ -1390,7 +1390,7 @@
     }
 
     #email_adresse {
-        /* font-size: 2em; */
+        font-size: 30px;
         position: relative;
         /* text-shadow: 1px 1px 2px #5c5c59; */
     }
