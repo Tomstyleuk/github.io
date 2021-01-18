@@ -175,11 +175,9 @@ article {
   width: 100%;
 }
 
-/*.hover-yellow:hover {
-    transition: all 0.2s;
-    color: #d4af31;
-    border-bottom: 3px solid #464646;
-  } */
+.hover-yellow:hover {
+  color: #000000 !important;
+}
 
 #works1 {
   margin: 0 90px 0 130px;
