@@ -46,16 +46,16 @@ a:focus {
   text-decoration: none;
 }
 
-.row {
+/* .row {
   margin-right: -15px;
   margin-left: -15px;
-  overflow: hidden;
-}
+  overflow-x: hidden;
+} */
 
 /*----------- HEADER -----------*/
 header {
-  display: flex;
-  position: relative;
+    display: flex;
+    position: relative;
   z-index: 9999;
   height: 900px;
 }
@@ -102,7 +102,7 @@ footer li {
   margin: 0 8% 0 0;
 }
 
-nav li:nth-of-type(n + 5) {
+#start-page nav li:nth-of-type(n + 5) {
   margin: -8px 0px;
 }
 
@@ -177,8 +177,8 @@ article {
 
 .hover-yellow:hover {
     transition: all 0.2s;
-    color: #c4c82a;
-    border-bottom: 3px solid #000000;
+    color: #d4af31;
+    border-bottom: 3px solid #464646;
   }
 
 #works1 {
@@ -329,9 +329,7 @@ h2 {
 }
 
 #email_adresse {
-  /* font-size: 2.4em; */
   position: relative;
-  /* text-shadow: 1px 1px 2px #5c5c59; */
 }
 
 #kontakt a::after {
@@ -350,9 +348,6 @@ h2 {
   width: 100%;
 }
 
-#email_adresse:hover {
-  /* font-size: 2.4em; */
-}
 
 /*----------- FOOTER -----------*/
 footer {
@@ -363,7 +358,7 @@ footer {
 
 footer h1,
 footer a {
-  color: #fff;
+  color: #fff !important;
 }
 
 footer ul {

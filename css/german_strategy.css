@@ -13,7 +13,6 @@ p {
 /* KUNDEN Introduction */
 #client_intro {
     background-image: linear-gradient(90deg,#002a6d, #b08829);
-    /* background-image: linear-gradient(90deg, gray, lightgray); */
     background-color: #4e4e4e;
     border: white;
     padding: 26px;
