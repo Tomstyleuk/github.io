@@ -1,1450 +1,982 @@
-/*----------- max-width: 2560px -----------*/
-@media screen and (max-width: 2560px) and (min-width: 1441px) {
-
-    * {
-        font-family: 'Lora', "Noto Serif JP", serif;
-        color: #333333;
-        font-size: 100.1%;
-        line-height: 1.5;
-      }
-      
-      body {
-        margin: -10px 0;
-        padding: 0;
-        background: whitesmoke;
-        /* background: #fff; */
-      }
-    
-      #wrapper {
-        background: #ffffff;
-        margin-left: auto;
-        margin-right: auto;
-        /* max-width: 1440px; */
-      }
-      
-      ul {
-        list-style: none;
-      }
-    
-      p {
-        color: #464646;
-        font-size: 2em;
-      }
-      
-      /* verboten Bilder zu speichern */
-      img {
-        pointer-events: none; 
-      }
-    
-      /* css für IE8 */
-    a,
-    a:link,
-    a:focus {
-      text-decoration: none;
-    }
-    
-    
-    /*----------- HEADER -----------*/
-    header {
-        display: flex;
-        position: relative;
-        z-index: 9999;
-        background: url(images/_MG_0850\ 2.jpg)no-repeat;
-        height: 900px;
-    }
-    
-    #head_img {
-        position: absolute;
-        top: 0;
-    }
-    
-    #head_img img {
-        width: 100%;
-        height: auto;
-    }
-    
-    #myname {
-        color: #fff;
-        font-size: 4.5em;
-        margin: 50px 0 0 230px;
-        /* padding: 20px 0; */
-    }
-    
-    #myname a {
-        color: #fff;
-    }
-    
-    /*----------- NAV -----------*/
-    nav {
-        position: absolute;
-        /* top: 60px; */
-        right: 460px;
-        margin: 60px 0 0 0;
-    }
-    
-    nav li a, footer li a {
-        color: #fff;
-        font-size: 2.8em;
-    }
-    
-    nav ul {
-        display: flex;
-    }
-    
-    nav li, footer li {
-        margin: 0 8% 0 0;
-    }
-    
-    #myname a:hover, nav li a:hover, footer li a:hover, footer h1 a:hover {
-        color: #EBF018;
-        transition: all 0.3s ease-in;
-    }
-    
-    
-    /*----------- ASIDE -----------*/
-    #vertical_nav {
-        position: fixed;
-        top: 200px;
-    }
-    
-    .git, .email {
-        display: inline-block;
-        margin: 0 0 30% 0;
-    }
-
-    #vertical_nav img {
-        width: 70px;
-    }
-
-    
-    
-    /*----------- top_intro -----------*/
-    #top_intro {
-        position: absolute;
-        right: 58px;
-        top: 200px;
-        width: 48%;
-        z-index: 10000;
-    }
-    
-    #top_intro #frontend {
-        color: #fff;
-        font-size: 6em;
-    }
-    
-    #top_intro #frontend::first-letter {
-        font-size: 1.3em;
-    }
-    
-    #top_intro p {
-        color: rgb(252, 252, 252);
-        font-size: 2.6em;
-        width: 100%;
-    }
-    
-    
-    /*----------- headline -----------*/
-    #headline {
-        font-size: 5em;
-        margin: 50px 0 0 250px;
-    }
-
-    #projekte_title {
-        margin: 900px 0 0 0;
-    }
-    
-    #headline::first-letter { /*重複してるもしくは同じcssがあるから統一する*/
-        font-size: 1.5em;
-    }
-    
-    
-    /*----------- PROJEKTE -----------*/
-    #img1, #img2 {
-        display: inline-block;
-    }
-    
-    #projekte {
-        display: flex;
-        margin: 0 0 140px 0;
-        width: 100%;
-    }
-    
-    #works1 {
-        margin: 0 90px 0 160px;
-        position: relative;
-        width: 46%;
-        z-index: 1;
-    }
-
-    h4, #projekte_name {
-        font-size: 2em;
-    }
-
-    #works2 {
-        margin: 40px 0 0 400px;
-        width: 45%;
-    }
-
-    .video {
-        height: auto;
-        width: 600px;
-    }
-    
-    .hover-parent img {
-        width: 100%;
-        height: auto;
-        position: relative;
-        margin-bottom: 30px;
-        overflow: hidden;
-    }
-    
-    .hover-mask {
-        background: rgba(0,0,0,0.6);
-        color: #fff;
-        display: flex;
-        font-size: 2em;
-        position: absolute;
-        top: 92px;
-        bottom: 0;
-        left: 96px;
-        right: 0;
-        padding: 90px 30px 0 30px;
-        padding-bottom: 0px;
-        opacity: 0;
-        /* align-items: center; */
-        text-align: center;
-        height: 345px;
-        width: 74%;
-    } 
-    
-    
-    .hover-parent:hover .hover-mask {
-        opacity: 1;
-        transition: all 0.8s ease;
-        padding-bottom: 0;
-    }
-    /*//////////////////////*/
-    
-    
-    #referenz {
-        box-shadow: whitesmoke 0 10px 10px 8px;
-        padding: 10px;
-        margin: -70px 0 0 90px;
-        text-align: center;
-        width: 84%;
-    }
-    
-    .linksite {
-        border-bottom: 3px #EBF018 solid !important;
-    }
-    
-    .project_todo {
-        margin: 0 0 0 44px;
-        width: 50%;
-    }
-    
-    /*----------- SKILLS -----------*/
-    .headline {
-        /* display: inline-block; */
-        float: left;
-    }
-    
-    .prog_tools {
-        float: right;
-        font-size: 2.2em;
-        letter-spacing: 1px;
-        position: relative;
-        top: 100px;
-        right: 440px;    
-    }
-    
-    #skills {
-        background: linear-gradient(180deg, #fdfdfd, lavender);
-        clip-path: polygon(10% 0, 100% 0%, 85% 100%, 0% 100%);
-        clear: both;
-        display: flex;
-        /* height: 400px; */
-        padding: 30px 0;
-        width: 100%;
-    }
-    
-    #skills h2 {
-        font-size: 3.5em;
-        margin: 0;
-    }
-    
-    #Programmiersprache {
-        margin: 0 0 0 250px;
-        width: 40%;
-    }
-    
-    #tools {
-        margin: 0 0 0 400px;
-        width: 40%;
-    }
-    
-    
-    /*----------- MY STORY -----------*/
-    #about p {
-        line-height: 1.7em;
-        margin: 30px 0 0 250px;
-        width: 80%;
-    }
-    
-    #about h2 {
-        margin: 40px 0;
-        text-align: center;
-    }
-    
-    #lebenslauf {
-        background-color: #5c5c59;
-        border: solid #5c5c59 1px;
-        color: #fff;
-        font-size: 3.2em;
-        font-weight: lighter;
-        padding: 20px 82px;
-    }
-    
-    #lebenslauf:hover {
-        background-color: #5c5c59;
-        border: solid #5c5c59 1px;
-        color: #EBF018;
-        font-size: 3.2em;
-        font-weight: lighter;
-        padding: 20px 82px;
-    }
-    
-    .gitlink, .wbslink {
-        border-bottom: solid 2px #E2E646;
-    }
-    
-    /*----------- KONTAKT -----------*/
-    #kontakt {
-        background-color: #fdfdfd;
-        padding: 40px 0;
-        text-align: center;
-        margin: 100px 0;
-        width: 100%;
-    }
-    
-    #email_adresse {
-        /* font-size: 4em; */
-        position: relative;
-        /* text-shadow: 1px 1px 2px #5c5c59; */
-    }
-    
-    #kontakt a::after {
-        border-bottom: solid 6px #E2E646;
-        bottom: 0;
-        content: "";
-        display: block;
-        position: absolute;
-        left: 0;
-        transition: all .4s ease;
-        -webkit-transition: all .3s ease;
-        width: 0;
-    }
-    
-    #kontakt a:hover::after {
-        width: 100%;
-    }
-    
-    #email_adresse:hover {
-        /* font-size: 4em; */
-    }
-    
-    /*----------- FOOTER -----------*/
-    footer {
-        background-color: #5c5c59;
-        display: flex;
-        margin: -100px 0;
-    }
-    
-    footer h1, footer a {
-        color: #fff;
-    }
-    
-    footer ul {
-        display: flex;
-        margin: 70px 0 0 430px;
-        /* position: relative;
-        left: 500px; */
-        width: auto;
-    }
-    
-    footer li {
-        float: left;
-    }
-    
-    footer h1 {
-        color: #fff;
-        font-size: 3.5em;
-        padding: 0 0 40px 0;
-        margin: 50px 0 0 230px;
-    }
-    
-    .typed-cursor {
-        display: none;
-    }
-    
-    
-    /* scroll down, elements come up from bottom */
-      .fadeInUp {
-        opacity : 0;
-        transform: translateY(100px);
-        transition: 1s;
-      }
-}
-/*----------- max-width: 2560px -----------*/
-
-
-
-/*----------- max-width: 1024px -----------*/
 @media screen and (max-width: 1024px) {
-    #wrapper {
-        background: #ffffff;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1024px;
-    }
+  #wrapper {
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+  }
 
-    /*----------- HEADER -----------*/
-    header {
-        display: flex;
-        position: relative;
-        z-index: 9999;
-        /* background: url(images/_MG_0850\ 2.jpg)no-repeat; */
-        height: 700px;
-    }
+  /*----------- HEADER -----------*/
+  header {
+    display: flex;
+    position: relative;
+    z-index: 9999;
+    height: 700px;
+  }
 
-    #myname {
-        color: #fff;
-        font-size: 3em;
-        margin: 50px 0 0 40px;
-        /* padding: 20px 0; */
-    }
-
-    #myname a {
-        color: #fff;
-    }
-
-    /*----------- NAV -----------*/
-    nav {
-        position: absolute;
-        /* top: 60px; */
-        right: 116px;
-        margin: 50px 0 0 0;
-    }
-
-    nav li a, footer li a {
-        color: #fff;
-        font-size: 1.3em;
-    }
-
-    nav ul {
-        display: flex;
-    }
-
-    nav li, footer li {
-        margin: 0 8% 0 0;
-    }
-
-    #myname a:hover, nav li a:hover, footer li a:hover, footer h1 a:hover {
-        color: #EBF018;
-        transition: all 0.3s ease-in;
-    }
+  #myname {
+    color: #fff;
+    font-size: 3em;
+    margin: 50px 0 0 40px;
+  }
 
 
-    /*----------- ASIDE -----------*/
-    #vertical_nav {
-        position: fixed;
-        top: 200px;
-        left: 0;
-    }
+  /*----------- NAV -----------*/
+  nav {
+    position: absolute;
+    right: 174px;
+    margin: 50px 0 0 0;
+  }
 
-    .git, .email {
-        display: inline-block;
-        margin: 0 0 30% 0;
-    }
+  nav li a,
+  footer li a {
+    color: #fff;
+    font-size: 1.3em;
+  }
 
+  nav ul {
+    display: flex;
+  }
 
-    /*----------- top_intro -----------*/
-    #top_intro {
-        position: absolute;
-        right: 36px;
-        top: 100px;
-        width: 50%;
-        z-index: 10000;
-    }
+  nav li,
+  footer li {
+    margin: 0 8% 0 0;
+  }
 
-    #top_intro #frontend {
-        color: #fff;
-        font-size: 3.3em;
-    }
+  #myname a:hover,
+  nav li a:hover,
+  footer li a:hover,
+  footer h1 a:hover {
+    color: #ebf018;
+    transition: all 0.3s ease-in;
+  }
 
-    #top_intro #frontend::first-letter {
-        font-size: 1.3em;
-    }
+  /*----------- ASIDE -----------*/
+  #vertical_nav {
+    position: fixed;
+    top: 200px;
+    left: 0;
+  }
 
-    #top_intro p {
-        color: rgb(252, 252, 252);
-        font-size: 1.4em;
-    }
+  .git,
+  .email {
+    display: inline-block;
+    margin: 0 0 30% 0;
+  }
 
+  /*----------- top_intro -----------*/
+  #top_intro {
+    position: absolute;
+    right: 36px;
+    top: 100px;
+    width: 50%;
+    z-index: 10000;
+  }
 
-    /*----------- headline -----------*/
-    #headline {
-        font-size: 2.8em;
-        margin: 0px 0 0 120px;
-    }
+  #top_intro #frontend {
+    color: #fff;
+    font-size: 3.3em;
+  }
 
-    #headline::first-letter { /*重複してるもしくは同じcssがあるから統一する*/
-        font-size: 1.5em;
-    }
+  #top_intro #frontend::first-letter {
+    font-size: 1.3em;
+  }
 
+  #top_intro p {
+    color: rgb(252, 252, 252);
+    font-size: 1.4em;
+  }
 
-    /*----------- PROJEKTE -----------*/
-    #img1, #img2 {
-        display: inline-block;
-    }
+  /*----------- headline -----------*/
+  #headline {
+    font-size: 2.8em;
+    margin: 0px 0 0 120px;
+  }
 
-    #projekte {
-        display: flex;
-        width: 100%;
-    }
+  #headline::first-letter {
+    font-size: 1.5em;
+  }
 
-    #works1 {
-        margin: 0 70px 60px 60px;
-        position: relative;
-        width: 46%;
-        z-index: 1;
-    }
+  /*----------- PROJEKTE -----------*/
+  #img1,
+  #img2 {
+    display: inline-block;
+  }
 
-    #works2 {
-        margin: 40px 0 0 0;
-        width: 45%;
-    }
+  #projekte {
+    display: flex;
+    width: 100%;
+  }
+  
 
-    .hover-parent img {
-        width: 100%;
-        height: auto;
-        position: relative;
-        margin-bottom: 30px;
-        overflow: hidden;
-    }
+  #works1 {
+    margin: 0 70px 60px 60px;
+    position: relative;
+    width: 46%;
+    z-index: 1;
+  }
 
-    .hover-mask {
-        background: rgba(0,0,0,0.6);
-        color: #fff;
-        display: flex;
-        font-size: 1.1em;
-        position: absolute;
-        top: 30px;
-        bottom: 0;
-        left: 42px;
-        right: 0;
-        padding: 30px 30px 0 30px;
-            padding-bottom: 0px;
-        opacity: 0;
-        /* align-items: center; */
-        text-align: center;
-        height: 165px;
-        width: 68%;
-    } 
+  #works2 {
+    margin: 40px 0 0 0;
+    width: 45%;
+  }
 
+  .hover-parent img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
 
-    .hover-parent:hover .hover-mask {
-        opacity: 1;
-        transition: all 0.8s ease;
-        padding-bottom: 0;
-    }
-    /*//////////////////////*/
+  .hover-mask {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    font-size: 1.1em;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    left: 42px;
+    right: 0;
+    padding: 30px 30px 0 30px;
+    padding-bottom: 0px;
+    opacity: 0;
+    text-align: center;
+    height: 165px;
+    width: 68%;
+  }
 
-
-    #referenz {
-        box-shadow: whitesmoke 0 2px 10px 8px;
-        padding: 10px;
-        margin: -20px 0 0 40px;
-        text-align: center;
-        width: 76%;
-    }
-
-    .linksite {
-        border-bottom: 3px #EBF018 solid !important;
-    }
-
-    .project_todo {
-        margin: 0 0 0 44px;
-        width: 50%;
-    }
-
-    /* .video {
-        margin: 0;
-        height: auto;
-        width: 100%;
-    } */
-
-    /*----------- SKILLS -----------*/
-    .headline {
-        /* display: inline-block; */
-        float: left;
-    }
-
-    .prog_tools {
-        float: right;
-        font-size: 1.2em;
-        letter-spacing: 1px;
-        position: relative;
-        top: 20px;
-        right: 120px;
-    }
-
-    #skills {
-        background: linear-gradient(180deg, #fdfdfd, lavender);
-        clip-path: polygon(10% 0, 100% 0%, 85% 100%, 0% 100%);
-        clear: both;
-        display: flex;
-        /* height: 400px; */
-        margin: 0 0 70px 0;
-        padding: 30px 0;
-        width: 100%;
-    }
-
-    #skills h2 {
-        font-size: 2.4em;
-        margin: 0;
-    }
-
-    #Programmiersprache {
-        margin: 0 0 0 120px;
-        width: 40%;
-    }
-
-    #tools {
-        margin: 0 0 0 90px;
-        width: 40%;
-    }
+  .hover-parent:hover .hover-mask {
+    opacity: 1;
+    transition: all 0.8s ease;
+    padding-bottom: 0;
+  }
 
 
-    /*----------- MY STORY -----------*/
-    #about p {
-        margin: 30px 0 0 120px;
-        width: 80%;
-    }
+  #referenz {
+    box-shadow: whitesmoke 0 2px 10px 8px;
+    padding: 10px;
+    margin: -20px 0 0 40px;
+    text-align: center;
+    width: 76%;
+  }
 
-    #about h2 {
-        margin: 40px 0;
-        text-align: center;
-    }
+  .linksite {
+    border-bottom: 3px #ebf018 solid !important;
+  }
 
-    #lebenslauf {
-        background-color: #5c5c59;
-        border: solid #5c5c59 1px;
-        color: #fff;
-        font-size: 1.2em;
-        font-weight: lighter;
-        padding: 10px 52px;
-    }
+  .project_todo {
+    margin: 33px 0 0 44px;
+    width: 50%;
+    box-shadow: whitesmoke 0 10px 10px 8px;
+    padding: 10px;
+  }
 
-    #lebenslauf:hover {
-        background-color: #5c5c59;
-        border: solid #5c5c59 1px;
-        color: #EBF018;
-        font-size: 1.2em;
-        font-weight: lighter;
-        padding: 10px 52px;
-    }
+  /*----------- SKILLS -----------*/
+  .headline {
+    float: left;
+  }
 
-    .gitlink, .wbslink {
-        border-bottom: solid 2px #E2E646;
-    }
+  .prog_tools {
+    float: right;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    position: relative;
+    top: 20px;
+    right: 120px;
+  }
 
-    /*----------- KONTAKT -----------*/
-    #kontakt {
-        background-color: #fdfdfd;
-        padding: 40px 0;
-        text-align: center;
-        margin: 100px 0;
-        width: 100%;
-    }
+  #skills {
+    background: linear-gradient(180deg, #fdfdfd, lavender);
+    clip-path: polygon(10% 0, 100% 0%, 85% 100%, 0% 100%);
+    clear: both;
+    display: flex;
+    margin: 0 0 70px 0;
+    padding: 30px 0;
+    width: 100%;
+  }
 
-    #email_adresse {
-        /* font-size: 2.4em; */
-        position: relative;
-        /* text-shadow: 1px 1px 2px #5c5c59; */
-    }
+  #skills h2 {
+    font-size: 2.4em;
+    margin: 0;
+  }
 
-    #kontakt a::after {
-        border-bottom: solid 4px #E2E646;
-        bottom: 0;
-        content: "";
-        display: block;
-        position: absolute;
-        left: 0;
-        transition: all .4s ease;
-        -webkit-transition: all .3s ease;
-        width: 0;
-    }
+  #Programmiersprache {
+    margin: 0 0 0 120px;
+    width: 40%;
+  }
 
-    #kontakt a:hover::after {
-        width: 100%;
-    }
+  #tools {
+    margin: 0 0 0 90px;
+    width: 40%;
+  }
 
-    #email_adresse:hover {
-        /* font-size: 2.4em; */
-    }
+  /*----------- MY STORY -----------*/
+  #about p {
+    margin: 30px 0 0 120px;
+    width: 80%;
+  }
 
-    /*----------- FOOTER -----------*/
-    footer {
-        background-color: #5c5c59;
-        display: flex;
-        margin: -100px 0;
-    }
+  #about h2 {
+    margin: 40px 0;
+    text-align: center;
+  }
 
-    footer h1, footer a {
-        color: #fff;
-    }
+  #lebenslauf {
+    background-color: #5c5c59;
+    border: solid #5c5c59 1px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: lighter;
+    padding: 10px 52px;
+  }
 
-    footer ul {
-        display: flex;
-        margin: 70px 0 0 180px;
-        /* position: relative;
-        left: 100px; */
-        width: auto;
-    }
+  #lebenslauf:hover {
+    background-color: #5c5c59;
+    border: solid #5c5c59 1px;
+    color: #ebf018;
+    font-size: 1.2em;
+    font-weight: lighter;
+    padding: 10px 52px;
+  }
 
-    footer li {
-        float: left;
-    }
+  .gitlink,
+  .wbslink {
+    border-bottom: solid 2px #e2e646;
+  }
 
-    footer h1 {
-        color: #fff;
-        font-size: 3em;
-        padding: 0 0 40px 0;
-        margin: 50px 0 0 80px;
-    }
+  /*----------- KONTAKT -----------*/
+  #kontakt {
+    background-color: #fdfdfd;
+    padding: 40px 0;
+    text-align: center;
+    margin: 100px 0;
+    width: 100%;
+  }
+
+  #email_adresse {
+    /* font-size: 2.4em; */
+    position: relative;
+  }
+
+  #kontakt a::after {
+    border-bottom: solid 4px #e2e646;
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.3s ease;
+    width: 0;
+  }
+
+  #kontakt a:hover::after {
+    width: 100%;
+  }
 
 
+  /*----------- FOOTER -----------*/
+  footer {
+    background-color: #5c5c59;
+    display: flex;
+    margin: -100px 0;
+  }
 
+  footer h1,
+  footer a {
+    color: #fff;
+  }
+
+  footer ul {
+    display: flex;
+    margin: 70px 0 0 180px;
+    width: auto;
+  }
+
+  footer li {
+    float: left;
+  }
+
+  footer h1 {
+    color: #fff;
+    font-size: 3em;
+    padding: 0 0 40px 0;
+    margin: 50px 0 0 80px;
+  }
 }
-
 
 /*----------- max-width: 896px -----------*/
 @media screen and (max-width: 896px) {
-    #wrapper {
-        background: #ffffff;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 896px;
-      }
+  #wrapper {
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 896px;
+  }
+
+  /*----------- HEADER -----------*/
+  header {
+    display: block;
+    position: relative;
+    z-index: 9999;
+    height: 500px;
+  }
 
 
-    /*----------- HEADER -----------*/
-    header {
-        display: block;
-        position: relative;
-        z-index: 9999;
-        height: 500px;
-    }
-/* 
-    #head_img {
-        position: absolute;
-        top: 0;
-    }
-    
-    #head_img img {
-        width: 100%;
-        height: auto;
-    } */
-    
-    #myname {
-        color: #fff;
-        font-size: 2em;
-        margin: 40px 0 0 40px;
-    }
-    
-    #myname a {
-        color: #fff;
-    }
+  #myname {
+    color: #fff;
+    font-size: 2em;
+    margin: 40px 0 0 40px;
+  }
 
 
-    /*----------- NAV -----------*/
-    nav {
-        position: absolute;
-        /* top: -10px; */
-        right: 92px;
-        margin: -60px 0 0 0;
-    }
+  /*----------- NAV -----------*/
+  nav {
+    position: absolute;
+    right: 92px;
+    margin: -43px 0 0 0;
+  }
 
-    nav li a, footer li a {
-        /* color: #5c5c59; */
-        color: #fff;
-        font-size: 1.3em;
-    }
+  nav li a,
+  footer li a {
+    color: #fff;
+    font-size: 1.3em;
+  }
 
-    nav ul {
-        display: flex;
-    }
+  nav ul {
+    display: flex;
+  }
 
-    nav li, footer li {
-        margin: 0 6% 0 0;
-    }
+  nav li,
+  footer li {
+    margin: 0 6% 0 0;
+  }
 
-    #myname a:hover, nav li a:hover, footer li a:hover, footer h1 a:hover {
-        color: #EBF018;
-        transition: all 0.3s ease-in;
-    }
+  #myname a:hover,
+  nav li a:hover,
+  footer li a:hover,
+  footer h1 a:hover {
+    color: #ebf018;
+    transition: all 0.3s ease-in;
+  }
+
+  /*----------- ASIDE -----------*/
+  #vertical_nav {
+    position: fixed;
+    top: 200px;
+    left: -28px;
+  }
+
+  .git,
+  .email {
+    display: inline-block;
+    margin: 0 0 10px 0;
+  }
+
+  /*----------- top_intro -----------*/
+  #top_intro {
+    position: absolute;
+    right: 36px;
+    top: 100px;
+    width: 46%;
+    z-index: 10000;
+  }
+
+  #top_intro #frontend {
+    color: #fff;
+    font-size: 2em;
+  }
+
+  #top_intro #frontend::first-letter {
+    font-size: 1.6em;
+  }
+
+  #top_intro p {
+    color: rgb(252, 252, 252);
+    font-size: 1.1em;
+  }
+
+  /*----------- headline -----------*/
+  #headline {
+    font-size: 2.3em;
+    margin: 0 0 0 70px;
+  }
+
+  #headline::first-letter {
+    font-size: 1.5em;
+  }
+
+  /*----------- PROJEKTE -----------*/
+  #img1,
+  #img2 {
+    display: inline-block;
+  }
+
+  #img2 {
+    margin: 0 0 0 18%;
+  }
+
+  #projekte {
+    display: block;
+    width: 100%;
+  }
+
+  #projekte_title {
+    margin: 50px 0 0 0;
+  } 
+
+  #works1 {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+
+  #works2 {
+    margin: 100px 0 120px 0;
+    width: 100%;
+  }
+
+  .hover-parent img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+
+  .hover-mask {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    font-size: 1.1em;
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    left: 84px;
+    right: 0;
+    padding: 120px 0;
+    padding-bottom: 120px;
+    padding-bottom: 0;
+    opacity: 0;
+    text-align: center;
+    height: 46%;
+    width: 78%;
+  }
+
+  .hover-parent:focus .hover-mask {
+    opacity: 1;
+    transition: all 0.8s ease;
+    padding-bottom: 0;
+  }
+
+  #referenz {
+    box-shadow: whitesmoke 0 2px 10px 8px;
+    padding: 10px;
+    margin: -70px 0 0 80px;
+    text-align: center;
+    width: 80%;
+  }
+
+  #referenz h4 {
+    text-align: center;
+  }
+
+  .linksite {
+    border-bottom: 3px #ebf018 solid !important;
+  }
+
+  .project_todo {
+    margin: 30px 0 0 94px;
+    width: 80%;
+  }
+
+  .video {
+    margin: 0;
+    height: auto;
+    width: 100%;
+  }
+
+  /*----------- SKILLS -----------*/
+  .headline {
+    float: left;
+  }
+
+  .prog_tools {
+    float: none;
+    font-size: 1.1em;
+    letter-spacing: 0;
+    position: relative;
+    top: 90px;
+    right: 100px;
+    width: auto;
+  }
+
+  #skills {
+    background: linear-gradient(180deg, #fdfdfd, lavender);
+    clip-path: polygon(10% 0, 100% 0%, 85% 100%, 0% 100%);
+    clear: both;
+    display: block;
+    margin: 120px 0 70px 0;
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  #skills h2 {
+    font-size: 1.8em;
+    margin: 0;
+  }
+
+  #Programmiersprache {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  #tools {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  /*----------- MY STORY -----------*/
+  #about p {
+    margin: 30px 0 0 70px;
+    width: 80%;
+  }
+
+  #about h2 {
+    margin: 40px 0;
+    text-align: center;
+  }
+
+  #lebenslauf {
+    background-color: #5c5c59;
+    border: solid #5c5c59 1px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: lighter;
+    padding: 10px 52px;
+  }
+
+  #lebenslauf:hover {
+    background-color: #5c5c59;
+    border: solid #5c5c59 1px;
+    color: #ebf018;
+    font-size: 1.2em;
+    font-weight: lighter;
+    padding: 10px 52px;
+  }
+
+  .gitlink,
+  .wbslink {
+    border-bottom: solid 2px #e2e646;
+  }
+
+  /*----------- KONTAKT -----------*/
+  #kontakt {
+    background-color: #fdfdfd;
+    padding: 20px 0;
+    text-align: center;
+    margin: 80px 0;
+    width: 100%;
+  }
+
+  #email_adresse {
+    position: relative;
+  }
+
+  #kontakt a::after {
+    border-bottom: solid 4px #e2e646;
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.3s ease;
+    width: 0;
+  }
+
+  #kontakt a:hover::after {
+    width: 100%;
+  }
 
 
-    /*----------- ASIDE -----------*/
-    #vertical_nav {
-        position: fixed;
-        top: 200px;
-        left: -28px;
-    }
+  #kontakt p {
+    margin: 0 0 0 16px;
+    width: 90%;
+  }
 
-    .git, .email {
-        display: inline-block;
-        margin: 0 0 10px 0;
-    }
+  /*----------- FOOTER -----------*/
+  footer {
+    background-color: #5c5c59;
+    display: flex;
+    margin: -78px 0;
+  }
 
+  footer h1,
+  footer a {
+    color: #fff;
+  }
 
-    /*----------- top_intro -----------*/
-    #top_intro {
-        position: absolute;
-        right: 36px;
-        top: 60px;
-        width: 46%;
-        z-index: 10000;
-    }
-
-    #top_intro #frontend {
-        color: #fff;
-        font-size: 2em;
-    }
-    
-    #top_intro #frontend::first-letter {
-        font-size: 1.6em;
-    }
-    
-    #top_intro p {
-        color: rgb(252, 252, 252);
-        font-size: 1.1em;
-    }
-
-
-    /*----------- headline -----------*/
-    #headline {
-        font-size: 2.3em;
-        margin: 0 0 0 70px;
-    }
-
-    #headline::first-letter { /*重複してるもしくは同じcssがあるから統一する*/
-        font-size: 1.5em;
-    }
-
-
-    /*----------- PROJEKTE -----------*/
-    #img1, #img2 {
-        display: inline-block;
-    }
-
-    #img2 {
-        margin: 0 0 0 18%;
-    }
-
-    #projekte {
-        display: block;
-        width: 100%;
-    }
-
-    #works1 {
-        margin: 0;
-        position: relative;
-        width: 100%;
-        z-index: 1;
-    }
-
-    #works2 {
-        margin: 100px 0 120px 0;
-        width: 100%;
-    }
-
-    .hover-parent img {
-        width: 100%;
-        height: auto;
-        position: relative;
-        margin-bottom: 30px;
-        overflow: hidden;        
-    }
-
-    .hover-mask {
-        background: rgba(0,0,0,0.6);
-        color: #fff;
-        display: flex;
-        font-size: 1.1em;
-        position: absolute;
-        top: 80px;
-        bottom: 0;
-        left: 84px;
-        right: 0;
-        padding: 120px 0;
-            padding-bottom: 120px;
-        padding-bottom: 0;
-        opacity: 0;
-        /* align-items: center; */
-        text-align: center;
-        height: 210px;
-        width: 78%;
-    } 
-
-
-    .hover-parent:focus .hover-mask {
-        opacity: 1;
-        transition: all 0.8s ease;
-        padding-bottom: 0;
-    }
-
-    #referenz {
-        box-shadow: whitesmoke 0 2px 10px 8px;
-        padding: 10px;
-        margin: -70px 0 0 80px;
-        text-align: center;
-        width: 80%;
-    }
-
-    #referenz h4 {
-        text-align: center;
-    }
-
-    .linksite {
-        border-bottom: 3px #EBF018 solid !important;
-    }
-
-    .project_todo {
-        margin: 0 0 0 94px;
-        width: 80%;
-    }
-
-    .video {
-        margin: 0;
-        height: auto;
-        width: 100%;
-    }
-
-
-    /*----------- SKILLS -----------*/
-    .headline {
-        float: left;
-    }
-
-    .prog_tools {
-        float: none;
-        font-size: 1.1em;
-        letter-spacing: 0;
-        position: relative;
-        top: 90px;
-        right: 100px;
-        width: auto;
-    }
-
-    #skills {
-        background: linear-gradient(180deg, #fdfdfd, lavender);
-        clip-path: polygon(10% 0, 100% 0%, 85% 100%, 0% 100%);
-        clear: both;
-        display: block;
-        /* height: 400px; */
-        margin: 120px 0 70px 0;
-        padding: 30px 0;
-        text-align: center;
-        width: 100%;
-    }
-
-    #skills h2 {
-        font-size: 1.8em;
-        margin: 0;
-    }
-
-    #Programmiersprache {
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    #tools {
-        margin: 0 auto;
-        width: 80%;
-    }
-
-
-
-    /*----------- MY STORY -----------*/
-    #about p {
-        margin: 30px 0 0 70px;
-        width: 80%;
-    }
-
-    #about h2 {
-        margin: 40px 0;
-        text-align: center;
-    }
-
-    #lebenslauf {
-        background-color: #5c5c59;
-        border: solid #5c5c59 1px;
-        color: #fff;
-        font-size: 1.2em;
-        font-weight: lighter;
-        padding: 10px 52px;
-    }
-
-    #lebenslauf:hover {
-        background-color: #5c5c59;
-        border: solid #5c5c59 1px;
-        color: #EBF018;
-        font-size: 1.2em;
-        font-weight: lighter;
-        padding: 10px 52px;
-    }
-
-    .gitlink, .wbslink {
-        border-bottom: solid 2px #E2E646;
-    }
-
-
-    /*----------- KONTAKT -----------*/
-    #kontakt {
-        background-color: #fdfdfd;
-        padding: 20px 0;
-        text-align: center;
-        margin: 80px 0;
-        width: 100%;
-    }
-
-    #email_adresse {
-        /* font-size: 2em; */
-        position: relative;
-        /* text-shadow: 1px 1px 2px #5c5c59; */
-    }
-
-    #kontakt a::after {
-        border-bottom: solid 4px #E2E646;
-        bottom: 0;
-        content: "";
-        display: block;
-        position: absolute;
-        left: 0;
-        transition: all .4s ease;
-        -webkit-transition: all .3s ease;
-        width: 0;
-    }
-
-    #kontakt a:hover::after {
-        width: 100%;
-    }
-
-    #email_adresse:hover {
-        /* font-size: 2em; */
-    }
-
-    #kontakt p {
-        margin: 0 0 0 16px;
-        width: 90%;
-    }  
-        
-
-    /*----------- FOOTER -----------*/
-    footer {
-        background-color: #5c5c59;
-        display: flex;
-        margin: -78px 0;
-    }
-
-    footer h1, footer a {
-        color: #fff;
-    }
-
-    footer ul {
-        display: flex;
-        margin: 38px 0 0 70px;
-        /* position: relative;
+  footer ul {
+    display: flex;
+    margin: 38px 0 0 70px;
+    /* position: relative;
         left: 100px; */
-        width: auto;
-    }
+    width: auto;
+  }
 
-    footer li {
-        float: left;
-    }
+  footer li {
+    float: left;
+  }
 
-    footer h1 {
-        color: #fff;
-        font-size: 2em;
-        padding: 20px 0 22px 0;
-        margin: 10px 0 0 70px;
-    }
-
-
+  footer h1 {
+    color: #fff;
+    font-size: 2em;
+    padding: 20px 0 22px 0;
+    margin: 10px 0 0 70px;
+  }
 }
 
-
-
 /*----------- max-width: 480px -----------*/
-@media screen and (max-width: 480px) {
-    /* .current {
-        border-bottom: solid red 2px;
-    } */
+@media screen and (max-width: 500px) {
 
-    #wrapper {
-        background: #ffffff;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 480px;
-      }
+  #wrapper {
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 480px;
+  }
+
+  /*----------- HEADER -----------*/
+  header {
+    display: block;
+    position: relative;
+    z-index: 9999;
+    height: 700px;
+  }
+
+  #myname {
+    font-size: 1.3em;
+    margin: 0;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
 
 
-    /*----------- HEADER -----------*/
-    header {
-        display: block;
-        position: relative;
-        z-index: 9999;
-        /* background: url(../images/_MG_0850\ 2.jpg)no-repeat; */
-        height: 700px;
+  /*----------- NAV -----------*/
+  nav {
+    position: fixed;
+    bottom: -12px;
+    right: 0;
+    margin: 0;
+    z-index: 100;
+    background-color: #5c5c59;
+    padding: 9px 0;
+    width: 100vw;
+  }
+
+  nav li a,
+  footer li a {
+    color: #fff;
+    font-size: 1.1em;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav li,
+  footer li {
+    margin: 0 4% 0 -1%;
+  }
+
+  nav li:nth-of-type(n + 5) a {
+    padding: 8px 5px;
+  }
+
+  #myname a:hover,
+  nav li a:hover,
+  footer li a:hover,
+  footer h1 a:hover {
+    color: #ebf018;
+    transition: all 0.3s ease-in;
+  }
+
+  /*----------- ASIDE -----------*/
+  #vertical_nav {
+    position: fixed;
+    top: 200px;
+    left: -28px;
+  }
+
+  .git,
+  .email {
+    display: none;
+    margin: 0 0 10px 0;
+  }
+
+  /*----------- top_intro -----------*/
+  #top_intro {
+    position: absolute;
+    right: 36px;
+    top: 230px;
+    overflow: hidden;
+    width: 80%;
+    z-index: 1;
+  }
+
+  #top_intro #frontend {
+    color: #5c5c59;
+    font-size: 2em;
+  }
+
+  #top_intro #frontend::first-letter {
+    font-size: 1.6em;
+  }
+
+  #top_intro p {
+    color: #5c5c59;
+    font-size: 1.2em;
+  }
+
+  #frontend {
+    font-size: 2em;
+    color: #fff;
+    animation: flowing 5s linear infinite;
+    transform: translateX(100%); /*初期位置*/
+  }
+
+  @keyframes flowing {
+    100% {
+      transform: translateX(-100%);
     }
-    
-    #myname {
-        color: #fff;
-        font-size: 1.3em;
-        margin: 20px 0 0 220px;
-    }
-    
-    #myname a {
-        color: #fff;
-    }
+  }
+
+  /*----------- headline -----------*/
+  #headline {
+    font-size: 2.5em;
+    margin: 50px 0 0 36px;
+  }
 
 
-    /*----------- NAV -----------*/
-    nav {
-        position: fixed;
-        bottom: 0;
-        /* top: 0; */
-        margin: 0;
-        background-color: #5c5c59;
-        right: 0;
-        width: 100%;
-    }
+  #headline::first-letter {
+    font-size: 1.5em;
+  }
 
-    nav li a, footer li a {
-        /* color: #5c5c59; */
-        color: #fff;
-        font-size: 1.1em;
-    }
+  /*----------- PROJEKTE -----------*/
+  #projekte_title {
+    margin: 150px 0 0 0 !important;
+  }
 
-    nav ul {
-        display: flex;
-    }
+  #img1,
+  #img2 {
+    display: inline-block;
+  }
 
-    nav li, footer li {
-        margin: 0 4% 0 -1%;
-    }
+  #projekte {
+    display: block;
+    width: 100%;
+  }
 
-    #myname a:hover, nav li a:hover, footer li a:hover, footer h1 a:hover {
-        color: #EBF018;
-        transition: all 0.3s ease-in;
-    }
+  #works1 {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
 
+  #works2 {
+    margin: 100px 0 0 0;
+    width: 100%;
+  }
 
-    /*----------- ASIDE -----------*/
-    #vertical_nav {
-        position: fixed;
-        top: 200px;
-        left: -28px;
-    }
+  .hover-parent img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
 
-    .git, .email {
-        /* display: inline-block; display:none?? */
-        display: none;
-        margin: 0 0 10px 0;
-    }
+  .hover-mask {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    font-size: 1em;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 41px;
+    right: 0;
+    padding: 0 30px;
+    opacity: 0;
+    align-items: center;
+    height: 176px;
+    margin: 0;
+  }
 
+  .hover-parent:focus .hover-mask {
+    opacity: 1;
+    transition: all 0.8s ease;
+    padding-bottom: 0;
+  }
 
-    /*----------- top_intro -----------*/
-    #top_intro {
-        position: absolute;
-        right: 36px;
-        top: 230px;  
-        overflow: hidden;
-        width: 80%;
-        z-index: 10000;
-    }
+  #referenz {
+    box-shadow: whitesmoke 0 2px 10px 8px;
+    padding: 10px;
+    margin: 0 30px;
+    text-align: center;
+    width: auto;
+  }
 
-    #top_intro #frontend {
-        color: #5c5c59;
-        font-size: 2em;
-    }
-    
-    #top_intro #frontend::first-letter {
-        font-size: 1.6em;
-    }
-    
-    #top_intro p {
-        color: #5c5c59;
-        font-size: 1.2em;
-    }
+  .linksite {
+    border-bottom: 3px #ebf018 solid !important;
+  }
 
-    #frontend {
-        font-size: 2em;
-        color: #FFF;
-        animation: flowing 5s linear infinite;
-        transform: translateX(100%);/*初期位置*/
-    }
+  .project_todo {
+    margin: 30px 30px;
+    width: auto;
+  }
 
-    @keyframes flowing {
-        100% {
-          transform: translateX(-100%);
-        }
-      }
+  .video {
+    margin: 0 0 0 -30px;
+    height: auto;
+    width: 100%;
+  }
 
+  /*----------- SKILLS -----------*/
+  .headline {
+    float: left;
+  }
 
-    /*----------- headline -----------*/
-    #headline {
-        font-size: 2.5em;
-        margin: 50px 0 0 36px;
-    }
-   
-    #projekte_title #headline {
-         margin: 470px 0 0 36px !important;
-    }
+  .prog_tools {
+    float: none;
+    font-size: 1.1em;
+    letter-spacing: 0;
+    position: relative;
+    top: 130px;
+    right: 110px;
+    width: auto;
+  }
 
-    #headline::first-letter { /*重複してるもしくは同じcssがあるから統一する*/
-        font-size: 1.5em;
-    }
+  #skills {
+    background: linear-gradient(180deg, #fdfdfd, lavender);
+    clip-path: polygon(10% 0, 100% 0%, 85% 100%, 0% 100%);
+    clear: both;
+    display: block;
+    margin: 146px 0 0 0;
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+  }
 
+  #skills h2 {
+    font-size: 1.8em;
+    margin: 0;
+  }
 
-    /*----------- PROJEKTE -----------*/
-    #projekte_title {
-        margin: 390px 0 0 0 !important;
-    }
+  #Programmiersprache {
+    margin: 0 auto;
+    width: 80%;
+  }
 
-    #img1, #img2 {
-        display: inline-block;
-    }
+  #tools {
+    margin: 0 auto;
+    width: 80%;
+  }
 
-    #projekte {
-        display: block;
-        width: 100%;
-    }
+  /*----------- MY STORY -----------*/
+  #about p {
+    margin: 30px 0 0 40px;
+    width: 80%;
+  }
 
-    #works1 {
-        margin: 0;
-        position: relative;
-        width: 100%;
-        z-index: 1;
-    }
+  #about h2 {
+    margin: 40px 0;
+    text-align: center;
+  }
 
-    #works2 {
-        margin: 100px 0 0 0;
-        width: 100%;
-    }
+  #lebenslauf {
+    background-color: #5c5c59;
+    border: solid #5c5c59 1px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: lighter;
+    padding: 10px 52px;
+  }
 
-    .hover-parent img {
-        width: 100%;
-        height: auto;
-        position: relative;
-        margin-bottom: 30px;
-        overflow: hidden;        
-    }
+  #lebenslauf:hover {
+    background-color: #5c5c59;
+    border: solid #5c5c59 1px;
+    color: #ebf018;
+    font-size: 1.2em;
+    font-weight: lighter;
+    padding: 10px 52px;
+  }
 
-    .hover-mask {
-        background: rgba(0,0,0,0.6);
-        color: #fff;
-        display: flex;
-        font-size: 1em;
-        position: absolute;
-        top: 30px;
-        bottom: 0;
-        left: 36px;
-        right: 0;
-        padding: 0 30px;
-        opacity: 0;
-        align-items: center;
-        text-align: center;
-        height: 176px;
-        width: 65%;
-    } 
+  .gitlink,
+  .wbslink {
+    border-bottom: solid 2px #e2e646;
+  }
 
+  /*----------- KONTAKT -----------*/
+  #kontakt {
+    background-color: #fdfdfd;
+    padding: 20px 0;
+    text-align: center;
+    margin: 80px 0;
+    width: 100%;
+  }
 
-    .hover-parent:focus .hover-mask {
-        opacity: 1;
-        transition: all 0.8s ease;
-        padding-bottom: 0;
-    }
+  #email_adresse {
+    position: relative;
+  }
 
-    #referenz {
-        box-shadow: whitesmoke 0 2px 10px 8px;
-        padding: 10px;
-        margin: -20px 0 0 32px;
-        text-align: center;
-        width: 80%;
-    }
+  #kontakt a::after {
+    border-bottom: solid 4px #e2e646;
+    bottom: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.3s ease;
+    width: 0;
+  }
 
-    .linksite {
-        border-bottom: 3px #EBF018 solid !important;
-    }
-
-    .project_todo {
-        margin: 0 0 0 44px;
-        width: 80%;
-    }
-
-    .video {
-        margin: 0 0 0 -30px;
-        height: auto;
-        width: 100%;
-    }
-
-
-    /*----------- SKILLS -----------*/
-    .headline {
-        float: left;
-    }
-
-    .prog_tools {
-        float: none;
-        font-size: 1.1em;
-        letter-spacing: 0;
-        position: relative;
-        top: 130px;
-        right: 110px;
-        width: auto;
-    }
-
-    #skills {
-        background: linear-gradient(180deg, #fdfdfd, lavender);
-        clip-path: polygon(10% 0, 100% 0%, 85% 100%, 0% 100%);
-        clear: both;
-        display: block;
-        /* height: 400px; */
-        margin: 146px 0 0 0;
-        padding: 30px 0;
-        text-align: center;
-        width: 100%;
-    }
-
-    #skills h2 {
-        font-size: 1.8em;
-        margin: 0;
-    }
-
-    #Programmiersprache {
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    #tools {
-        margin: 0 auto;
-        width: 80%;
-    }
+  #kontakt a:hover::after {
+    width: 100%;
+  }
 
 
+  /*----------- FOOTER -----------*/
+  footer {
+    background-color: #5c5c59;
+    display: block;
+    margin: -78px 0;
+  }
 
-    /*----------- MY STORY -----------*/
-    #about p {
-        margin: 30px 0 0 40px;
-        width: 80%;
-    }
+  footer h1,
+  footer a {
+    color: #fff;
+  }
 
-    #about h2 {
-        margin: 40px 0;
-        text-align: center;
-    }
+  footer ul {
+    display: flex;
+    margin: 0;
+    width: auto;
+  }
 
-    #lebenslauf {
-        background-color: #5c5c59;
-        border: solid #5c5c59 1px;
-        color: #fff;
-        font-size: 1.2em;
-        font-weight: lighter;
-        padding: 10px 52px;
-    }
+  footer li {
+    float: left;
+  }
 
-    #lebenslauf:hover {
-        background-color: #5c5c59;
-        border: solid #5c5c59 1px;
-        color: #EBF018;
-        font-size: 1.2em;
-        font-weight: lighter;
-        padding: 10px 52px;
-    }
-
-    .gitlink, .wbslink {
-        border-bottom: solid 2px #E2E646;
-    }
-
-
-    /*----------- KONTAKT -----------*/
-    #kontakt {
-        background-color: #fdfdfd;
-        padding: 20px 0;
-        text-align: center;
-        margin: 80px 0;
-        width: 100%;
-    }
-
-    #email_adresse {
-        /* font-size: 2em; */
-        position: relative;
-        /* text-shadow: 1px 1px 2px #5c5c59; */
-    }
-
-    #kontakt a::after {
-        border-bottom: solid 4px #E2E646;
-        bottom: 0;
-        content: "";
-        display: block;
-        position: absolute;
-        left: 0;
-        transition: all .4s ease;
-        -webkit-transition: all .3s ease;
-        width: 0;
-    }
-
-    #kontakt a:hover::after {
-        width: 100%;
-    }
-
-    #email_adresse:hover {
-        /* font-size: 2em; */
-    }
-
-    
-
-    /*----------- FOOTER -----------*/
-    footer {
-        background-color: #5c5c59;
-        display: block;
-        margin: -78px 0;
-    }
-
-    footer h1, footer a {
-        color: #fff;
-    }
-
-    footer ul {
-        display: flex;
-        margin: 0;
-        /* position: relative;
-        left: 0; */
-        width: auto;
-    }
-
-    footer li {
-        float: left;
-    }
-
-    footer h1 {
-        color: #fff;
-        font-size: 2em;
-        padding: 20px 0 22px 0;
-        margin: 50px 0 0 118px;
-    }
-
+  footer h1 {
+      display: none;
+  }
 }

@@ -35,7 +35,7 @@
         });
 
         const typed3 = new Typed('#frontend', {
-          strings: ['Web Frontend-Developer'],
+          strings: ['Web Frontend Developer'],
           typeSpeed: 50,
           backSpeed: 30,
           smartBackspace: true, // this is a default
@@ -77,6 +77,13 @@
                $(this).delay(DelayTime * index).animate({'opacity': 1}, EffectTime);
              });
            }
+          });
+
+          $('article').flowtype({
+            minimum   : 375,
+            maximum   : 1024,
+            minFont   : 16,
+            maxFont   : 24,
           });
 
   
