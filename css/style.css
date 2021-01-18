@@ -41,16 +41,12 @@ img {
 /* css für IE8 */
 a,
 a:link,
-a:focus {
+a:focus,
+a:hover {
   color: #000000;
   text-decoration: none;
 }
 
-/* .row {
-  margin-right: -15px;
-  margin-left: -15px;
-  overflow-x: hidden;
-} */
 
 /*----------- HEADER -----------*/
 header {
