@@ -46,8 +46,8 @@
     },
 
     "cv": {
-        "de": "<a href=\"images/Lebenslauf.pdf\" id=\"lebenslauf\" title=\"Schauen Sie meine Lebenslauf\" target=\"_blank\">Lebenslauf</a>",
-        "en": "<a href=\"images/Lebenslauf.pdf\" id=\"lebenslauf\" title=\"Have a look at my resume\" target=\"_blank\">Resume</a>"
+        "de": "<a href=\"images/resume.pdf\" id=\"lebenslauf\" title=\"Schauen Sie meine Lebenslauf\" target=\"_blank\">Lebenslauf</a>",
+        "en": "<a href=\"images/resume.pdf\" id=\"lebenslauf\" title=\"Have a look at my resume\" target=\"_blank\">Resume</a>"
     },
 
     "text": {
