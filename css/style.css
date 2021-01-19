@@ -46,23 +46,13 @@ a:focus {
   text-decoration: none;
 }
 
-/* .row {
-  margin-right: -15px;
-  margin-left: -15px;
-<<<<<<< HEAD
-  overflow-x: hidden;
-} */
-=======
-  /*overflow: hidden; */
-}
->>>>>>> 43596a7be6e7673a255c4737cb6905b36e192b83
 
 /*----------- HEADER -----------*/
 header {
     display: flex;
     position: relative;
-  z-index: 9999;
-  height: 900px;
+    z-index: 9999;
+    height: 900px;
 }
 
 #head_img {
@@ -181,10 +171,10 @@ article {
 }
 
 .hover-yellow:hover {
-    transition: all 0.2s;
-    color: #d4af31;
-    border-bottom: 3px solid #464646;
+    color: #000000 !important;
   }
+
+
 
 #works1 {
   margin: 0 90px 0 130px;
@@ -420,4 +410,16 @@ footer h1 {
 #de:hover,
 #en:hover {
   color: #ebf018 !important;
+}
+
+#mailtoui-modal {
+    overflow: unset;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1000;
+}
+
+#mailtoui-modal {
+    z-index: 1000000;
 }
