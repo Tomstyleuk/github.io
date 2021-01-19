@@ -677,8 +677,9 @@
     margin: 0;
     z-index: 100;
     background-color: #5c5c59;
-    padding: 2px 0;
+    padding: 5px 0;
     width: 100vw;
+    font-size: 14px;
   }
 
   nav li a,
@@ -732,8 +733,9 @@
   }
 
   #top_intro #frontend {
-    color: #5c5c59;
+    color: #000000;
     font-size: 2em;
+    font-weight: 700;
   }
 
   #top_intro #frontend::first-letter {
@@ -961,6 +963,7 @@
     background-color: #5c5c59;
     display: block;
     margin: -78px 0;
+    opacity: 0;
   }
 
   footer h1,

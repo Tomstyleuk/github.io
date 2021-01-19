@@ -41,7 +41,8 @@ img {
 /* css für IE8 */
 a,
 a:link,
-a:focus {
+a:focus,
+a:hover {
   color: #000000;
   text-decoration: none;
 }
@@ -170,9 +171,15 @@ article {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .hover-yellow:hover {
     color: #000000 !important;
   }
+=======
+a .hover-yellow:hover {
+  color: #000000 !important;
+}
+>>>>>>> ecd0147c3e8dcd7f819695f3ce4f9ca33883da34
 
 
 
