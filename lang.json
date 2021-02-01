@@ -45,10 +45,10 @@
         "en": "<span class=\"highlight\">Hi, thank you for visiting my portfolio and reading so far.</span> I came to Germany in 2015 with the dream to open a Japanese restaurant in Europe, but in 2017 I had to give up that dream, because my hands developed allergies to the kitchen gloves and cleaning products. After that I married my German wife in Japan and since 2018 I have been living in Germany again.<span class=\"highlight\"> In 2018 I started to learn German and web development at the same time, because I had been interested in it for a long time.</span> I instantly fell in love with programming and web design because they allow me to express and shape my ideas on the web. And more, I love the process of developing websites, from concept and design to programming.<span class=\"highlight\"> In 2019 I achieved my goals that I passed my German exam B2 level and in March 2020 I completed <strong><a href=\"https://www.wbstraining.de/weiterbildung-web-developer-webmasters-zertifizierung/\" class=\"wbslink\" target=\"_blank\">the advanced training at WBS</a> to become a certified web developer. </strong></span>I always strive to improve and deepen my coding skills so that I can develop in designing creative and fast websites with excellent user experience. <span class=\"highlight\">My goal is to further develop my creative coding skills and bring my JavaScript skills to a level that will greatly benefit my work. Currently I'm creating a new blog site with GatsbyJs, Netlify and Contentful. It's comming soon!! I am also focusing on learning three.js, GSAP and German C1. My curiosity is endless. :)</span> I also enjoy thinking about how I can express my client's wishes and represent their brand on the web. If my clients are satisfied with my developed website, I am very happy :)"
     },
 
-    "cv": {
+    /* "cv": {
         "de": "<a href=\"images/resume.pdf\" id=\"lebenslauf\" title=\"Schauen Sie meine Lebenslauf\" target=\"_blank\">Lebenslauf</a>",
         "en": "<a href=\"images/resume.pdf\" id=\"lebenslauf\" title=\"Have a look at my resume\" target=\"_blank\">Resume</a>"
-    },
+    }, */
 
     "text": {
         "de": "Ich freue mich auf Ihre Kontakt und uns kennenzulernen. :)",
