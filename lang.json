@@ -1,111 +1,66 @@
 {
-
     "project": {
         "de": "Projekte",
         "en": "Projects"
     },
-  
     "contact": {
         "de": "Kontakt",
         "en": "Contact"
     },
-
-    "int": {
-        "de": "Meine Leidenschaft ist Programmierung und Webdesign. Nach drei Jahren Eigenstudium, Weiterbildung zum Web Developer und Arbeit bei einer Webagentur, beherrsche ich neben HTML5 (semantic coding), CSS3 und Responsive Webdesign. Ich lege großen Wert auf nutzerorientiertes Design und Benutzerfreundlichkeit, daher glaube ich, dass es wichtig ist, eng mit ganze Team zusammenzuarbeiten.",
-        "en": "My passion is programming and web design. After three years of self-study, further education as a web developer and working at a web agency, I have mastered HTML5 (semantic coding), CSS3 and Responsive Web Design. I value user-centred design and usability, so I believe it's important to work closely with the whole team."
-    },
-
-    "corporate": {
-        "de": "Corporate Webseite für German Strategy Consulting.<br> Konzeption, Entwicklung, Design, HTML5, CSS3, JavaScript, PHP, Wordpress, Figma.",
-        "en": "Corporate website for German Strategy Consulting.<br> Conception, development, design, HTML5, CSS3, JavaScript, PHP, Wordpress, Figma."
-    },
-
-    "review": {
-        "de": "' Tomoya arbeitete mit mir am Design und an den Funktionen der Webseite, was zu einem großartigen Ergebnis führte. Er ist sehr proaktiv und freundlich im Gedankenaustausch und sehr flexibel bei der Durchführung von Änderungen. '",
-        "en": "' Tomoya worked hard with me on the design and functions of the website, which led to a great result. He is very proactive and friendly in exchanging ideas and very flexible in making changes. '"
-    },
-
-    "process": {
-        "de": "Mehr erfahren >>",
-        "en": "Learn more >>"
-    },
-
-    "toDo": {
-        "de": "Ich gestaltete die To-Do List in meiner Freizeit mit HTML5, CSS3, Javascript, jQuery.",
-        "en": "I built the To-Do List in my spare time with HTML5, CSS3, JavaScript, jQuery."
-    },
-
     "tools": {
         "de": "Programmiersprache & Tools",
         "en": "Programming Languages & Tools"
     },
-
     "about": {
-        "de": "<span class=\"highlight\">Hi, danke, dass Sie mein Portfolio besuchen und bis hier gelesen haben.</span> Ich kam 2015 mit dem Traum nach Deutschland, ein japanisches Restaurant in Europa zu eröffnen. 2017 musste ich diesen Traum aufgeben, da ich Allergien gegen die Küchenhandschuhe und Reinigungsmittel entwickelt habe. Danach habe ich eine deutsche Frau in Japan geheiratet und lebe seit 2018 wieder in Deutschland. <span class=\"highlight\">Im Jahr 2018 begann ich Deutsch und Web-Entwicklung gleichzeitig zu lernen, da ich mich seit längerer Zeit dafür interessierte.</span> Ich verliebte mich sofort in Programmierung und Web Design, denn sie ermöglichen es, meine Ideen im Web auszudrücken und zu formen. Außerdem macht mir es Spaß, Webseiten zu konzipieren, zu gestalten, das Layout zu entwerfen und zu programmieren. <span class=\"highlight\">2019 habe ich meine Deutsch-Prüfung B2 Niveau bestanden und im März 2020 <strong><a href=\"https://www.wbstraining.de/weiterbildung-web-developer-webmasters-zertifizierung/\" class=\"wbslink\" target=\"_blank\">die Weiterbildung</a> zum Web Entwickler</strong> abgeschlossen.</span> Ich bin immer bestrebt, meine Programmierkenntnisse zu verbessern und zu vertiefen, damit ich sie bei der Gestaltung kreativer und schneller Webseiten mit exzellentem user experience entwickeln kann. <span class=\"highlight\">Mein Ziel ist es, meine kreative Coding-Kenntnisse weiterzuentwickeln und meine JavaScript-Kenntnisse auf ein Niveau zu bringen, das meiner Arbeit sehr zugute kommt. Momentan erstelle ich eine neue Blogseite mit GatsbyJs, Netlify und Contentful. Es kommt gleich!! Außerdem konzentriere ich mich auf three.js, GSAP und Deutsch C1 zu erlernen. Meine Neugierde hat ohne Ende in Sicht. :)</span> Ich denke gerne darüber nach, wie ich die Wünsche und die Marke meines Kunden im Web zum Ausdruck bringen kann. Wenn meine Kunden mit meiner erstellten Webseite zufrieden sind, bin ich sehr glücklich :)",
-        "en": "<span class=\"highlight\">Hi, thank you for visiting my portfolio and reading so far.</span> I came to Germany in 2015 with the dream to open a Japanese restaurant in Europe, but in 2017 I had to give up that dream, because my hands developed allergies to the kitchen gloves and cleaning products. After that I married my German wife in Japan and since 2018 I have been living in Germany again.<span class=\"highlight\"> In 2018 I started to learn German and web development at the same time, because I had been interested in it for a long time.</span> I instantly fell in love with programming and web design because they allow me to express and shape my ideas on the web. And more, I love the process of developing websites, from concept and design to programming.<span class=\"highlight\"> In 2019 I achieved my goals that I passed my German exam B2 level and in March 2020 I completed <strong><a href=\"https://www.wbstraining.de/weiterbildung-web-developer-webmasters-zertifizierung/\" class=\"wbslink\" target=\"_blank\">the advanced training at WBS</a> to become a certified web developer. </strong></span>I always strive to improve and deepen my coding skills so that I can develop in designing creative and fast websites with excellent user experience. <span class=\"highlight\">My goal is to further develop my creative coding skills and bring my JavaScript skills to a level that will greatly benefit my work. Currently I'm creating a new blog site with GatsbyJs, Netlify and Contentful. It's comming soon!! I am also focusing on learning three.js, GSAP and German C1. My curiosity is endless. :)</span> I also enjoy thinking about how I can express my client's wishes and represent their brand on the web. If my clients are satisfied with my developed website, I am very happy :)"
+        "de": "Hi, danke, dass Sie mein Portfolio besuchen und bis hierhin gelesen haben. <span class=\"highlight\">In letzter Zeit sind WebGL und Three.js meine Leidenschaft.</span> Mein Wissensdurst und meine Neugierde sind grenzenlos. <br>Falls sie nun neugierig auf meine Geschichte sind, lesen Sie bitte weiter. Ich habe 2017 meinen langjährigen Traum, ein eigenes japanisches Restaurant zu eröffnen aufgeben müssen. Auf der Suche nach einer alternativen Karriere kam ich über mein Interesse an Design und digitalen Technologien zu ersten Coding-Versuchen. Es war als hätte mich ein Blitz getroffen, ich hatte meine Berufung gefunden. Ich war beeindruckt von der Kraft der Programmierung und des Designs, denn sie ermöglichen es nicht nur, meine Ideen im Web auszudrücken, sondern auch Kunden/Unternehmen zu Erfolg zu verhelfen und Usern eine besondere Experience zu verschaffen. <br><span class=\"highlight\">Meine langfristigen Ziele sind, 1) nützliche Apps für unterschiedlichste Zielgruppen zu entwickeln und einen Beitrag für die Gesellschaft zu leisten und 2) Preise bei awwwards zu gewinnen. </span>Um meine Ziele zu erreichen, vertiefe ich stetig mein Wissen über Programmierung und Design und halte mich immer auf dem Laufenden bezüglich neuer Trends und Technologien. Ich hoffe Sie konnten einen ersten Eindruck von mir gewinnen. <br>Lassen Sie uns gerne einen virtuellen Kaffee zusammen trinken? :)",
+        "en": "Hi, thanks for visiting my portfolio and reading this far. <span class=\"highlight\">Lately, WebGL and Three.js have been my passion. </span>My thirst for knowledge and my curiosity are boundless. <br>If you are now curious about my story, please read on. In 2017, I had to give up my long-time dream of opening my own Japanese restaurant. Looking for an alternative career, I got into coding through my interest in design and digital technologies. It was as if I had been struck by lightning, I had found my calling. I was impressed by the power of coding and design. Not only could I now express my ideas on the internet, but I could also help clients/companies to succeed and give users a special experience. <span class=\"highlight\">My long term goals are to 1) develop useful apps for diverse audiences and contribute to society and 2) win an award at awwwards. </span>To achieve these goals, I am constantly striving to improve my knowledge of programming and design, and to follow new trends and technologies. I hope you could get a first impression of me. Let's have a virtual coffee together? :)"
     },
-
     "text": {
         "de": "Ich freue mich auf Ihre Kontakt und uns kennenzulernen. :)",
         "en": "I am looking forward to hearing from you and getting to know us. :)"
     },
-    
-    
     "gscIntro": {
-        "de": "German Strategy Consulting (GSC) ist der erste Partner, der mit einem japanischen Unternehmen an Ihren europäischen Strategien arbeitet. GSC hilft den Kunden, ihre Strategien mit Leben zu füllen. Die in Japan entwickelten Strategien fliesen mit 'lokaler europäischer Perspektiv' in die Unternehmensplanung ein. GSC bietet zwei Dienstleistungen an: Die erste ist eine aus Europa angebotene Unternehmens- und Managementstrategieberatung. Der zweite ist ein Dienst, der regelmäßigig sorgfältig ausgewählte Informationen aus den europäischen Medien, Regierungs- und Forschungseinrichtungen liefert. CEO Herr Wada war Leiter der Geschäftsstrategie bei der FBC Business Consulting GmbH in Frankfurt am Main, wo er für die Unterstützung japanischer Unternehmen zuständig war, bevor er sein Geschäft 2019 ausgliederte und die Zusammenarbeit mit der FBC fortsetzte.",
-
-       "en": "German Strategy Consulting (GSC) is the first partner to work with a Japanese company on your European strategies. GSC helps clients to bring their strategies to life. The strategies developed in Japan are incorporated into the corporate planning with a 'local European perspective'. GSC offers two services: The first is a corporate and management strategy consultancy service offered from Europe. Secondly, a service that regularly provides well selected information from the European media, government and research institutions. The CEO, Mr Wada was Head of Business Strategy at FBC Business Consulting GmbH in Frankfurt am Main, where he was responsible for supporting Japanese companies before spinning off his business in 2019 and continuing his cooperation with FBC."
+        "de": "German Strategy Consulting (GSC) ist der erste Partner, der mit japanischen Unternehmen an Ihren europäischen Strategien arbeitet und hilft sie zu formulieren. Die in Japan entwickelten Strategien fliesen mit 'lokaler europäischer Perspektive' angereichert in die Unternehmensplanung ein. GSC bietet zwei Dienstleistungen an: Die erste ist eine aus Europa angebotene Unternehmens- und Managementstrategieberatung. Die zweite ist ein Dienst, der regelmäßigig sorgfältig ausgewählte Informationen aus den europäischen Medien, Regierungs- und Forschungseinrichtungen liefert. CEO Herr Wada war Leiter der Geschäftsstrategie bei der FBC Business Consulting GmbH in Frankfurt am Main, wo er für die Unterstützung japanischer Unternehmen zuständig war, bevor er sein Geschäft 2019 ausgliederte und die Zusammenarbeit mit der FBC fortsetzte.",
+        "en": "German Strategy Consulting (GSC) is the first partner to work with a Japanese company on your European strategies. GSC helps clients to bring their strategies to life. The strategies developed in Japan are incorporated into the corporate planning with a 'local European perspective'. GSC offers two services: The first is a corporate and management strategy consultancy service offered from Europe. Secondly, a service that regularly provides well selected information from the European media, government and research institutions. The CEO, Mr Wada was Head of Business Strategy at FBC Business Consulting GmbH in Frankfurt am Main, where he was responsible for supporting Japanese companies before spinning off his business in 2019 and continuing his cooperation with FBC."
     },
-
     "titleSituation": {
         "de": "Ausgangssituation",
-        "en": "Initial situation"
+        "en": "Initial Situation"
     },
-
     "situation": {
-        "de": "Er hatte eine Webseite, aber das Design war veraltet und er wollte eine neue moderne Webseite, die mit einer Vielzahl von Endgeräten kompatibel sein sollte. Außerdem sollte das Problem gelöst werden, dass der Name und die Webseite des Unternehmens nicht erkannt und er bekam selten Anfragen aus Japan. Er wollte mehr Trafik auf seiner Webseite und neue Kunden gewinnen.",
-        "en": "He had a website which the design was outdated and he wanted a new modern website that would be compatible with a wide range of devices. He also wanted a solution to the problems of the company's name and website not being recognised and he rarely received requests from Japanese company. Our goals are to get more traffic on his website and to attract new clients."
+        "de": "Er hatte eine Webseite, aber das Design war veraltet und er wollte eine neue moderne Webseite, die mit einer Vielzahl von Endgeräten kompatibel sein sollte. Außerdem sollte das Problem gelöst werden, dass der Name und die Webseite des Unternehmens in Japan relativ unbekannt waren und er selten neue Anfragen über die Webseite bekam. Er wollte mehr Traffic auf seiner Webseite und neue Kunden gewinnen.",
+        "en": "He had a website with outdated design and he wanted a new modern website that would be compatible with a wide range of devices. He also wanted a solution to the problems of the company's name and website not being enough known and he rarely received requests from Japanese companies via the website. Our goals were to get more traffic on his website and to attract new clients."
     },
-
     "titleTask": {
         "de": "Aufgaben",
         "en": "Missions"
     },
-
     "taskDescri": {
-        "de": "Aufgaben waren Konzeption und Entwicklung - von der Erstberatung über Layout Programmierung, individuelles Wordpress Theme sowie responsive Web Design bis zur geeignete Plug-Ins. Ich arbeitete auch an der SEO und die Programmierung individueller Funktionalitäten, um das japanische Unternehmen dazu zu bringen, sein Unternehmen und seine Webseite zu erkennen. Außerdem brauchten wir ein modernes Design, um einen das Erscheinungsbild zu modernisieren. Die Zielgruppe waren japanische Direktoren (männlich zwischen 30 und 50 Jahren) von Firmen in Tokio die für Abteilungen in der Unternehmensplanung zuständig sind. Das Ziel der Webseite war es, mehr Trafik auf die Webseite von GSC zu locken und neue Kunden zu gewinnen. Außerdem war es ein weiterer Wunsch zwei Bolg-Seiten umzusetzen.",
-        "en": "Missions were conception and development - from initial consultation, layout, programming, individual Wordpress theme and responsive web design to suitable plug-ins. I also worked on the SEO and programming of individual functionalities to make the Japanese company recognize his company and his website. We also needed a modern design to modernise the appearance of the website. The target group were Japanese directors (male between 30 and 50 years old) of companies in Tokyo who are responsible for departments in corporate planning. The aim of the website was to get more traffic to the GSC website and attract new clients. It was also another wish to implement two Blog pages."
+        "de": "Aufgaben waren Konzeption und Entwicklung - von der Erstberatung über Layout Programmierung, individuelles Wordpress Theme sowie responsive Web Design bis zu geeigneten Plug-Ins. Ich arbeitete auch an der SEO und der Programmierung individueller Funktionalitäten, um sein Unternehmen und seine Webseite besser auffindbar für japanische Unternehmen zu machen. Außerdem brauchten wir ein ansprechendes neues Design, um einen das Erscheinungsbild zu modernisieren. Die Zielgruppe waren japanische Direktoren (männlich zwischen 30 und 50 Jahren) von Firmen in Tokio die für Abteilungen in der Unternehmensplanung zuständig sind. Außerdem war es ein weiterer Wunsch zwei Blog-Seiten umzusetzen.",
+        "en": "Missions were conception and development - from initial consultation, layout, programming, individual Wordpress theme and responsive web design to suitable plug-ins. I also worked on the SEO and programming of individual functionalities to make his company and his website recognisable for Japanese businesses. We also needed a new design to modernise the appearance of the website. The target group were Japanese directors (male between 30 and 50 years old) of companies in Tokyo who are responsible for departments in corporate planning. Furthermore the client wanted me to implement two Blog pages."
     },
-
     "titleSolution": {
         "de": "Lösungen",
         "en": "Solutions"
     },
-
     "sol1": {
-        "de": "Modernes Design und Optimierung für verschiedene Endgerät",
-        "en": "Modern design and optimisation for various end-devices"
+        "de": "Modernes Design und Optimierung für verschiedene Endgeräte",
+        "en": "Modern Design and Optimisation for Various End-Devices"
     },
-
     "solDescri": {
-        "de": "Basis für die technische Umsetzung war das Content-Management-System (CMS) Wordpress. Das leistungsstarke CMS erlaubt ganz individuelle technische Lösungen und ermöglicht die einfache und effiziente Pflege im Backend. Das Image der Webseite sollte ehrlich, anspruchsvoll und „trendy“ wirken. Daher habe ich mich für drei Farben entschieden, die diese Seriosität ausstrahlen: dunkel brau, helle grau und Gold als Akzetnfarbe. Ich habe zuerst das CI mit Figma entworfen. In dieser Phase haben wir auch responsive web design entschieden und diese Webseite wurde ohne Bootstrap für verschiedene Endgeräten optimiert.",
-        "en": "The basis for the technical implementation was the content management system (CMS) Wordpress. The powerful CMS allows very individual technical solutions and enables easy and efficient maintenance in the backend. The image of the website should be honest, sophisticated and 'trendy'. Therefore I decided on three colours that present this reliability: dark blue, light grey and gold as accent colour. Firstly I designed the CI with Figma. In this phase we also decided on responsive web design and this website was optimised for various devices without bootstrap."
+        "de": "Basis für die technische Umsetzung war das Content-Management-System (CMS) Wordpress. Das leistungsstarke CMS erlaubt ganz individuelle technische Lösungen und ermöglicht die einfache und effiziente Pflege im Backend. Das Image der Webseite sollte ehrlich, anspruchsvoll und „trendy“ wirken. Daher habe ich mich für drei Farben entschieden, die diese Seriosität ausstrahlen: dunkelblau, helles grau und Gold als Akzentfarbe. Ich habe zuerst das CI mit Figma entworfen. In dieser Phase haben wir auch responsive web design entschieden und die Webseite wurde ohne Bootstrap für verschiedene Endgeräten optimiert.",
+        "en": "The basis for the technical implementation was the content management system (CMS) Wordpress. The powerful CMS allows very individual technical solutions and enables easy and efficient maintenance in the backend. The image of the website should be honest, sophisticated and 'trendy'. Therefore, I decided on three colours that present this reliability: dark blue, light grey and gold as accent colour. Firstly, I designed the CI with Figma. In this phase we also decided on responsive web design and this website was optimised for various devices without bootstrap."
     },
-
     "sol2": {
         "de": "Implementierung zwei Blog-Seiten, um Informationen und seine Einsichten, die er in Deutschland erhält, zu veröffentlichen",
         "en": "Implementation of two blog pages to publish information and his insights"
     },
-
     "solDescri2": {
-        "de": "Wir haben den Inhalt der Webseite besprochen, wie die Webseite zu strukturieren ist. Er möchte deutsche und europäische Wirtschaftsnachrichten und Informationen veröffentlichen, die für Japaner schwer zugänglich sind. So haben wir zwei Blog-Seiten eingerichtet, in welchen er die Wirtschaftsnachrichten, veröffentlichen kann. Außerdem wollte er die Zahl der Anfragen erhöhen, deshalb haben wir auf jeder Seite ein Kontaktformular zur Verfügung gestellt, so dass sich seine Zielgruppe sofort mit ihm in Verbindung setzen kann.<br> Unsere häufige Kommunikation und unser wöchentlicher Gedankenaustausch ermöglichten es mir, schnell auf alle Änderungswünsche einzugehen.",
-        "en": "We discussed contents of the website how to structure it. He wanted to publish German and European business news and information that is difficult for Japanese companies to access. Thus, we have set up two blog pages where he can publish the business news and his insights. In addition, he also wanted to increase the number of inquires, so we have provided a contact form on each pages so that his target group can get in touch with him immediately.<br> Our frequent communication and our weekly exchange of ideas enabled me to respond quickly to all his change requests."
+        "de": "Wir haben den Inhalt der Webseite besprochen, wie die Webseite zu strukturieren ist. Er möchte deutsche und europäische Wirtschaftsnachrichten und Informationen veröffentlichen, die für Japaner schwer zugänglich sind. So haben wir zwei Blog-Seiten eingerichtet, aus welchen er ausgewählte Wirtschaftsnachrichten veröffentlichen kann. Außerdem wollte er die Zahl der Anfragen erhöhen, weshalb wir auf jeder Seite ein Kontaktformular zur Verfügung stellten, so dass sich seine Zielgruppe sofort mit ihm in Verbindung setzen kann. Unsere regelmäßige Kommunikation ermöglichte es mir, ihn eng in den Entwicklungsprozess einzubinden und schnell auf alle Anpassungswünsche einzugehen.",
+        "en": "We discussed contents of the website how to structure it. He wanted to publish German and European business news and information that is difficult for Japanese companies to access. Thus, we set up two blog pages where he can publish selected business news and his insights. Since he wanted to increase the number of inquires, we provided a contact form on each page so that his target group can get in touch with him immediately. Our frequent communication enabled me to respond quickly to all his change requests."
     },
-
     "linkWebsite": {
         "de": "Zur Webseite",
-        "en": "Go to the website"
+        "en": "Visit the Website"
     }
-
-
-  }
+}
