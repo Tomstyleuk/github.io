@@ -1,6 +1,12 @@
 p {
+    color: white;
     line-height: 1.8;
 }
+
+#project_page nav ul {
+    opacity: 1;
+    /* display: flex; */
+  }
 
 #header {
     background-size: 100% auto;
@@ -12,15 +18,21 @@ p {
 
 /* KUNDEN Introduction */
 #client_intro {
-    background-image: linear-gradient(90deg,#002a6d, #b08829);
-    background-color: #4e4e4e;
-    border: white;
+    background-image: linear-gradient(180deg,#002a6d, #b08829);
     padding: 26px;
     position: relative;
     top: -340px;
     left: 220px;
     width: 50%;
     z-index: 10000;
+    transition: all 0.5s ease;
+}
+
+#client_intro:hover {
+    box-shadow: 20px 20px 3px black;
+    top: -350px;
+    left: 210px;
+    transition: all 0.5s ease;
 }
 
 #client_intro p {
@@ -33,8 +45,8 @@ p {
     mix-blend-mode: difference;
 }
 
-
 #title {
+    color: white;
     font-size: 3.4em;
     margin: 50px 0 0 120px;
 }
@@ -54,6 +66,7 @@ p {
 }
 
 .initial_situation_content p {
+    color: white;
     margin: 70px 0 0 120px;
     width: 50%;
 }
@@ -66,7 +79,7 @@ p {
 #old_image img, 
 .sol1_left img, 
 .sol2_right img {
-    box-shadow: lightgray 0 10px 6px 10px;
+    box-shadow: #1e1e1e4d 0 2px 6px 4px;
 }
 
 
@@ -76,7 +89,6 @@ p {
 }
 
 #tasks {
-    background-color: #4e4e4e;
     display: flex;
 }
 
@@ -88,11 +100,19 @@ p {
     color: white;
     margin: 70px 0 70px 250px;
     width: 50%;
+    background: #223c64;
+    padding: 14px;
+    transition: all 0.5s ease;
 }
 
+#tasks:hover .task_texts {
+    margin: 60px 0 80px 240px;
+    box-shadow: 20px 20px 3px black;
+    transition: all 0.5s ease;
+} 
 
 /* LOSUNG 1 */
-#solution_block1 {
+    #solution_block1 {
     display: flex;
     margin: 70px 0 190px 0;
     width: 100%;
@@ -108,7 +128,12 @@ p {
     width: 46%;
 }
 
+.sol1_right p {
+    margin: 40px 0 0 0;
+}
+
 h3 {
+    color: white;
     font-size: 2em;
 }
 
@@ -142,24 +167,21 @@ h3 {
 }
 
 #webseite_link {
-    background-color: #5c5c59;
-    border: solid #5c5c59 1px;
-    box-shadow: lightgray 0 8px 10px 4px;
+    background-color: #223c64;
     color: white;
     font-size: 1em;
     font-weight: lighter;
     padding: 16px 92px;
+    transition: all 0.4s ease;
 }
 
 #webseite_link:hover {
-    background-color: #5c5c59;
-    border: solid #5c5c59 1px;
+    transform: translate(-10px, 100px);
+    padding: 20px 92px;
+    box-shadow: 0px 3px 4px 0px rgb(63, 63, 63);
     color: #EBF018;
-    font-size: 1em;
-    font-weight: lighter;
-    padding: 16px 92px;
+    margin: 4px;
 }
-
 
 /* RESPONSIVE */
 #resposinve {
@@ -169,4 +191,8 @@ h3 {
 
 #resposinve h3 {
     margin: 0 0 -14px 0;
+}
+
+#kontakt p {
+    color: black;
 }
