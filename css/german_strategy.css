@@ -1,12 +1,15 @@
 p {
     color: white;
-    line-height: 1.8;
+    font-size: 1.2em;
 }
 
 #project_page nav ul {
     opacity: 1;
-    /* display: flex; */
-  }
+}
+
+#myname {
+    opacity: 1;
+}
 
 #header {
     background-size: 100% auto;
@@ -81,7 +84,6 @@ p {
 .sol2_right img {
     box-shadow: #1e1e1e4d 0 2px 6px 4px;
 }
-
 
 /* AUGABEN */
 #tasks_area {
@@ -163,7 +165,7 @@ h3 {
 /* ZUR Webseite Link */
 #link {
     text-align: center;
-    margin: 150px;
+    margin: 60px;
 }
 
 #webseite_link {
@@ -171,13 +173,13 @@ h3 {
     color: white;
     font-size: 1em;
     font-weight: lighter;
-    padding: 16px 92px;
+    padding: 12px 22px;
     transition: all 0.4s ease;
 }
 
 #webseite_link:hover {
     transform: translate(-10px, 100px);
-    padding: 20px 92px;
+    padding: 12px 22px;
     box-shadow: 0px 3px 4px 0px rgb(63, 63, 63);
     color: #EBF018;
     margin: 4px;
