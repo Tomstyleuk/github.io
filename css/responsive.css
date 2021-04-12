@@ -22,11 +22,6 @@
     z-index: 10000;
   }
 
-  article {
-    margin: 20px 0;
-    width: 82%;
-  }
-
   #top_intro #frontend {
     font-size: 2.2em;
   }
@@ -144,11 +139,6 @@
 
   #top_intro p {
     font-size: 18px;
-  }
-
-  article {
-    margin: 20px 0;
-    width: 100%;
   }
 
   #top_intro #frontend {
@@ -321,13 +311,14 @@
   /*----------- top_intro -----------*/
   #top_intro {
     position: unset;
-    width: 80%;
+    width: 84%;
     margin: 0 auto;
   }
 
   #top_intro #frontend {
     color: black;
     font-size: 2em;
+    height: 60px;
   }
 
   #top_intro p {
@@ -347,7 +338,6 @@
   #headline::first-letter {
     font-size: 1.5em;
   }
-
 
   /*----------- PROJEKTE -----------*/
   .project_parent_container {
@@ -550,18 +540,15 @@
     width: 80%;
   }
 
-  article {
-    width: 100%;
-  }
-
   #top_intro p {
     font-size: 16px;
   }
 
   #top_intro #frontend {
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
+    height: 60px;
   }
 
   #top_intro #frontend::first-letter {
@@ -594,6 +581,11 @@
     opacity: 0;
     position: relative;
     margin: 0;
+  }
+
+  .projects_container {
+    margin: -40px auto 0 auto;
+    width: 90%;
   }
 
   .work_container_row {
