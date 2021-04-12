@@ -47,7 +47,7 @@
 
 
     $('a[href^="#"]').on("click", function () {
-      const speed = 600;
+      const speed = 900;
       const href = $(this).attr("href");
       const target = $(href == "#" || href == "" ? "html" : href);
       const position = target.offset().top;
@@ -87,20 +87,21 @@
       }
     });
 
-    // $("article").flowtype({
+    // $("article p").flowtype({
     //   minimum: 375,
-    //   maximum: 1024,
-    //   minFont: 16,
-    //   maxFont: 24
+    //   maximum: 1440,
+    //   minFont: 16
     // });
 
   });
 })(window, document, jQuery);
 
 const headImg = document.querySelector('#head_img')
+const myName = document.querySelector('#myname')
 const sideNav = document.querySelector('#vertical_nav')
 const menu = document.querySelector('nav ul')
 const introTop = document.querySelector('#top_intro')
+const projectContainer = document.querySelector('.project_parent_container')
 
 const opacity = function (cl) {
   cl.style.opacity = '1'
@@ -111,8 +112,8 @@ const trans = function (el, sec) {
 }
 
 const typed3 = new Typed("#frontend", {
-  strings: ["Hi! How are you today?", "Thank you for visiting!", "Please check out my portfolio", "Like what you see?", "Happy to hear from you =)"],
-  typeSpeed: 50,
+  strings: ["Web Frontend Developer"],
+  typeSpeed: 100,
   backSpeed: 15,
   smartBackspace: true,
   contentType: "html",
@@ -123,26 +124,38 @@ window.addEventListener('load', function (e) {
   e.preventDefault()
 
   setTimeout(() => {
-    headImg.style.clipPath = 'circle(122.0% at 16% 11%)'
+    headImg.style.clipPath = 'circle(100.0% at 16% 1%)'
     trans(headImg, 1.5)
 
     trans(menu, 8)
     opacity(menu)
     menu.style.display = 'flex'
 
-    trans(sideNav, 3)
+    trans(myName, 2.5)
+    opacity(myName)
+
+    trans(sideNav, 8)
     opacity(sideNav)
     trans(introTop, 8)
-    opacity(introTop, 15)
-  }, 1500)
+    opacity(introTop)
+
+    trans(projectContainer, 6)
+    opacity(projectContainer)
+  }, 1200)
 
   if (window.innerWidth < '600') {
     setTimeout(() => {
-      opacity(introTop, 4)
+      trans(myName, 1)
+      opacity(myName)
+
+      trans(projectContainer, 15)
+      opacity(projectContainer)
+
+      opacity(introTop)
+      trans(introTop, 12)
     }, 1200)
   }
 })
-
 
 let myElements = document.querySelectorAll(".work_inner_container");
 
