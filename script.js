@@ -112,12 +112,12 @@ const trans = function (el, sec) {
 }
 
 const typed3 = new Typed("#frontend", {
-  strings: ["Web Frontend Developer"],
-  typeSpeed: 100,
-  backSpeed: 15,
+  strings: ["Web Frontend Developer", "Konnichiwa World"],
+  typeSpeed: 90,
+  backSpeed: 35,
   smartBackspace: true,
   contentType: "html",
-  loop: false
+  loop: true
 })
 
 window.addEventListener('load', function (e) {
