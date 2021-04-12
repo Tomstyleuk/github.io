@@ -74,7 +74,6 @@
   footer h1 {
     font-size: 2.5em;
   }
-
 }
 
 
@@ -355,6 +354,10 @@
     opacity: 0;
   }
 
+  .work_row_2 {
+    margin: 40px 0;
+  }
+
   .work_inner_container:hover .lang_tool p {
     color: white;
     transform: translateY(-4px);
@@ -376,7 +379,8 @@
   }
 
   .lang_tool p {
-    color: black; 
+    color: black;
+    font-size: 16px;
   }
 
   .work_inner_container:hover .lang_tool p,
@@ -608,7 +612,6 @@
   }
 
   .lang_tool p {
-    font-size: 16px;
     margin: 14px;
     text-align: center;
   }
