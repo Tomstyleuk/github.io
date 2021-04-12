@@ -77,7 +77,7 @@
 
     $(window).on("scroll load", function () {
       const scMiddle = $(this).scrollTop() + $(this).height() / 2;
-      const listPos = $(".txt01").offset().top;
+      const listPos = $(".skills_container").offset().top;
       if (listPos < scMiddle) {
         $(".fadein").each(function (index) {
           $(this)
