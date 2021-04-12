@@ -61,11 +61,10 @@ header {
     display: flex;
     position: relative;
     z-index: 9999;
-    /* height: 900px; */
 }
 
 #head_img {
-  clip-path: circle(10.9% at 13% 14%);
+  clip-path: circle(0.0% at 0 0);
   /* position: absolute;
   top: 0; */
 }
@@ -82,8 +81,9 @@ header {
 }
 
 #myname {
+  opacity: 0;
   color: #fff;
-  font-size: 3.5em;
+  font-size: 2.5em;
   /* margin: 50px 0 0 80px; */
 }
 
@@ -127,7 +127,7 @@ footer h1 a:hover {
 #vertical_nav {
   position: fixed;
   top: 200px;
-  left: 30px;
+  right: 40px;
   opacity: 0;
 }
 
@@ -167,14 +167,9 @@ article {
 }
 
 /*----------- headline -----------*/
-.project_parent_container {
-  position: relative;
-}
-
 #headline {
   color: white;
   font-size: 3em;
-  /* position: absolute; */
   margin: 50px 0 0 170px;
 }
 
@@ -183,6 +178,10 @@ article {
 }
 
 /*----------- PROJEKTE -----------*/
+.project_parent_container {
+  position: relative;
+ }
+
 .projects_container {
   margin: 50px auto;
   width: 90%;
@@ -319,8 +318,6 @@ h2 {
 /*----------- MY STORY -----------*/
 #about p {
   color: white;
-  letter-spacing: 1px;
-  line-height: 1.7em;
   margin: 30px 0 0 170px;
   width: 80%;
 }
