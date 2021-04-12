@@ -546,7 +546,7 @@
 
   #top_intro #frontend {
     color: black;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 700;
     height: 60px;
   }
@@ -563,7 +563,7 @@
 
   /*----------- headline -----------*/
   #headline {
-    font-size: 2em;
+    font-size: 1.7em;
     margin: 10px 0 0px 36px;
   }
 
