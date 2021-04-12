@@ -144,12 +144,12 @@
     }
 
     .projekt_name {
-        font-size: 2.8em;
+        font-size: 2.2em;
     }
 
     #title {
         color: black;
-        font-size: 3em;
+        font-size: 2.2em;
         margin: 0;
         text-align: center;
     }
@@ -189,18 +189,18 @@
 
     #tasks h2 {
         color: black;
-        margin: 0 0 40px 0;
+        margin: 0 0 20px 0;
     }
 
     #tasks p {
         color: white;
-        margin: 70px 0 0 44px;
+        margin: 20px 0 0 44px;
         width: 90%;
     }
 
     #tasks:hover .task_texts {
         color: white;
-        margin: 70px 0 0 44px;
+        margin: 20px 0 0 44px;
         width: 90%;
     } 
 
@@ -212,7 +212,7 @@
     #solution_block1 {
         display: flex;
         flex-direction: column-reverse;
-        margin: 70px 0 190px 0;
+        margin: 70px 0 60px 0;
     }
 
     .sol1_left {
@@ -226,7 +226,7 @@
     }
 
     .sol1_right p {
-        margin: 40px 0 0 0;
+        margin: 14px 0 0 0;
         color: black;
     }
 
@@ -235,8 +235,8 @@
     }
 
     h3 {
-        font-size: 2em;
-        text-align: center;
+        font-size: 1.5em;
+        text-align: left;
     }
 
 
@@ -255,7 +255,7 @@
     }
 
     #solution2 h3 {
-        margin: 0 0 0 50px;
+        margin: 0 0 15px 50px;
         width: 90%;
     }
 
@@ -278,7 +278,6 @@
         transform: translate(-10px, 100px);
         padding: 6px 42px;
         box-shadow: 0px 3px 4px 0px rgb(63, 63, 63);
-        /* margin: 4px; */
     }
 }
 
@@ -299,7 +298,8 @@
       }
 
     p {
-        font-size: 18px;
+        font-size: 16px;
+        line-height: inherit;
     }
 
     #header {
@@ -310,6 +310,7 @@
 
     /* KUNDEN Introduction */
     #client_intro {
+        background-image: linear-gradient(160deg,#002a6d, #b08829);
         padding: 20px;
         top: -490px;
         left: 0;
@@ -317,7 +318,6 @@
     }
 
     #client_intro:hover {
-        background-image: linear-gradient(90deg,#002a6d, #b08829);
         box-shadow: none !important;
         position: relative;
         top: -490px;
@@ -332,7 +332,8 @@
     }
 
     #title {
-        font-size: 2.5em;
+        font-size: 2em;
+        font-weight: 600;
         margin: 0;
         text-align: center;
     }
@@ -370,7 +371,7 @@
 
     #tasks {
         display: block;
-        padding: 40px 0;
+        padding: 0;
     }
 
     #tasks p {
@@ -398,7 +399,7 @@
     #solution_block1 {
         display: flex;
         flex-direction: column-reverse;
-        margin: 70px 0 190px 0;
+        margin: 70px 0 140px 0;
     }
 
     .sol1_left {
@@ -412,9 +413,9 @@
     }
 
     h3 {
-        font-size: 26px;
-        text-align: center;
-        font-weight: 600;
+        font-size: 20px;
+        text-align: left;
+        font-weight: 500;
     }
         
     /* LOSUNGEN 2 */
@@ -427,7 +428,7 @@
     }
 
     .sol2_left {
-        margin: 0 0 70px 30px;
+        margin: 14px 0 70px 30px;
         width: 90%;
     }
 
@@ -438,7 +439,7 @@
 
     /* ZUR Webseite */
     #link {
-        margin: 100px;
+        margin: 40px;
         text-align: center;
     }
 
@@ -448,7 +449,7 @@
 
     #webseite_link {
         font-size: 1em;
-        padding: 10px 30px;
+        padding: 8px 18px;
     }
 
     #webseite_link:hover {
