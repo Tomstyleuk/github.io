@@ -1,10 +1,30 @@
+@media screen and (min-width: 2000px) {
+  #top_intro p {
+    font-size: 1vw;
+  }
+
+  #top_intro {
+    opacity: 0;
+    position: absolute;
+    right: 130px;
+    top: 200px;
+    width: 600px;
+    z-index: 10000;
+  }
+}
+
 @media screen and (max-width: 1439px) and (min-width: 1025px) {
   #top_intro {
     position: absolute;
-    right: 0;
+    right: -55px;
     top: 200px;
     width: 50%;
     z-index: 10000;
+  }
+
+  article {
+    margin: 20px 0;
+    width: 82%;
   }
 
   #top_intro #frontend {
@@ -14,7 +34,6 @@
   #top_intro #frontend::first-letter {
     font-size: 1.3em;  
   }
-
 
   .name_container {
     position: absolute;
@@ -108,7 +127,7 @@
   /*----------- ASIDE -----------*/
   #vertical_nav {
     top: 200px;
-    left: 0;
+    right: 30px;
   }
 
   .git,
@@ -120,14 +139,23 @@
   #top_intro {
     position: absolute;
     right: 0;
-    top: 200px;
+    top: 100px;
     width: 50%;
-    z-index: 10000;
+  }
+
+  #top_intro p {
+    font-size: 18px;
+  }
+
+  article {
+    margin: 20px 0;
+    width: 100%;
   }
 
   #top_intro #frontend {
     color: #fff;
-    font-size: 2.2em;
+    font-size: 2em;
+    margin: 20px 0 0 0;
   }
 
   #top_intro #frontend::first-letter {
@@ -247,6 +275,7 @@
   }
 
   #myname {
+    opacity: 0;
     color: #fff;
     font-size: 1.6em;
     margin: 40px 0 0 40px;
@@ -255,7 +284,6 @@
   .highlight {
     color: black;
   }
-
 
   /*----------- NAV -----------*/
   nav {
@@ -277,7 +305,12 @@
   /*----------- ASIDE -----------*/
   #vertical_nav {
     top: 200px;
-    left: 12px;
+    right: 20px;
+  }
+
+  .imgs {
+    width: 28px;
+    height: 28px;
   }
 
   .git,
@@ -288,16 +321,18 @@
 
   /*----------- top_intro -----------*/
   #top_intro {
-    position: absolute;
-    right: 36px;
-    top: 140px;
-    width: 46%;
-    z-index: 10000;
+    position: unset;
+    width: 80%;
+    margin: 0 auto;
   }
 
   #top_intro #frontend {
-    color: #fff;
+    color: black;
     font-size: 2em;
+  }
+
+  #top_intro p {
+    color: black;
   }
 
   #top_intro #frontend::first-letter {
@@ -316,6 +351,10 @@
 
 
   /*----------- PROJEKTE -----------*/
+  .project_parent_container {
+    opacity: 0;
+  }
+
   .work_inner_container:hover .lang_tool p {
     color: white;
     transform: translateY(-4px);
@@ -331,7 +370,7 @@
   }
 
   .image_container {
-    box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
+    box-shadow: 0 20px 36px 0px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
     filter: grayscale(0);
     transition: all 0.4s ease;
   }
@@ -439,16 +478,19 @@
     top: 0;
     right: 0;
   }
+
   #myname {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 0;
+    opacity: 0;
     position: absolute;
     right: 30px;
     top: 30px;
   }
 
   #head_img {
-    clip-path: circle(12.9% at 82% 17%);
+    /* clip-path: circle(11.9% at 83% 18%); */
+    clip-path: circle(0% at 100% 0);
   }
 
   /*----------- NAV -----------*/
@@ -457,12 +499,13 @@
     font-size: 14px;
     padding: 5px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     position: fixed;
     bottom: 0;
     right: 0;
     top: auto;
     z-index: 100;
+    padding: 6px 14px 6px 0;
     width: 100vw;
   }
 
@@ -472,7 +515,7 @@
   }
 
   nav ul {
-    margin: 0 20px;
+    margin: 0;
   }
 
   nav li,
@@ -497,14 +540,22 @@
 
   /*----------- top_intro -----------*/
   #top_intro {
-    top: 300px;
-    width: 80%;
-    z-index: 1;
+    position: unset;
+    margin: 0 auto;
     overflow: hidden;
+    width: 80%;
+  }
+
+  article {
+    width: 100%;
+  }
+
+  #top_intro p {
+    font-size: 16px;
   }
 
   #top_intro #frontend {
-    color: #000000;
+    color: black;
     font-size: 30px;
     font-weight: 700;
   }
@@ -522,7 +573,12 @@
   /*----------- headline -----------*/
   #headline {
     font-size: 2em;
-    margin: 0 0 0px 36px;
+    margin: 10px 0 0px 36px;
+  }
+
+  .skills_container #headline {
+    font-size: 2em;
+    margin: 70px 0 0px 36px;
   }
 
   #headline::first-letter {
@@ -531,8 +587,9 @@
 
   /*----------- PROJEKTE -----------*/
   .project_parent_container {
+    opacity: 0;
     position: relative;
-    margin: 180px 0 0 0;
+    margin: 0;
   }
 
   .work_container_row {
@@ -578,13 +635,12 @@
   .prog_tools {
     float: none;
     letter-spacing: 0;
-    top: 130px;
-    right: 110px;
+    top: 150px;
+    right: 86px;
   }
 
   #skills {
     margin: 146px 0 0 0;
-    padding: 30px 0;
   }
 
   #skills h2 {
@@ -604,6 +660,7 @@
   /*----------- MY STORY -----------*/
   #about p {
     color: black;
+    font-size: 16px;
     margin: 0 auto;
     width: 85%;
   }
