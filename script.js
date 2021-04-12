@@ -75,17 +75,17 @@
     const DelayTime = 100;
     $(".fadein").css({ opacity: 0 });
 
-    $(window).on("scroll load", function () {
-      const scMiddle = $(this).scrollTop() + $(this).height() / 2;
-      const listPos = $(".skills_container").offset().top;
-      if (listPos < scMiddle) {
-        $(".fadein").each(function (index) {
-          $(this)
-            .delay(DelayTime * index)
-            .animate({ opacity: 1 }, EffectTime);
-        });
-      }
-    });
+    // $(window).on("scroll load", function () {
+    //   const scMiddle = $(this).scrollTop() + $(this).height() / 2;
+    //   const listPos = $(".skills_container").offset().top;
+    //   if (listPos < scMiddle) {
+    //     $(".fadein").each(function (index) {
+    //       $(this)
+    //         .delay(DelayTime * index)
+    //         .animate({ opacity: 1 }, EffectTime);
+    //     });
+    //   }
+    // });
 
     // $("article p").flowtype({
     //   minimum: 375,
